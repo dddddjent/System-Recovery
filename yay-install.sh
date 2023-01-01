@@ -1,6 +1,6 @@
 #!/bin/bash
 
-yay -S neovim\
+yay -Sy neovim\
     cmake\
     fzf\
     wemeet-bin\
@@ -9,6 +9,11 @@ yay -S neovim\
     lua\
     gcc\
     tree\
-    cuda
+    cuda\
+    git\
+    gcc\
+    python
+
     
+# xmake
 bash <(curl -fsSL https://xmake.io/shget.text)
