@@ -1,0 +1,29 @@
+[user]
+	email = 1306043330a@gmail.com
+	name = dddddjent
+[alias]
+	last = log -1
+	hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
+	glog = log --graph
+[safe]
+	directory = /home/ljl/other_disks/d/study/cs/python/learn_taichi/ray_ tracer
+	directory = /home/ljl/other_disks/d/study/ZJU/Computer-archietecture/project1/sha256/riscv-gnu-toolchain
+	directory = /home/ljl/other_disks/d/study/ZJU/Computer-archietecture/project1/sha256/riscv-gnu-toolchain/gcc
+	directory = /home/ljl/other_disks/d/study/ZJU/Computer-archietecture/project1/whisper
+	directory = /home/ljl/other_disks/d/study/ZJU/Computer-archietecture/project1/sha256
+	directory = /home/ljl/other_disks/d/study/ZJU/Computer-archietecture/project2(20221202)/attachment/code
+	directory = /home/ljl/other_disks/d/study/ZJU/信控计/Project
+	directory = /home/ljl/other_disks/d/study/Notes
+	directory = /home/ljl/other_disks/d/study/UPUP/versione
+	directory = /home/ljl/other_disks/d/study/UPUP/versioned
+	directory = /home/ljl/other_disks/d/study/UPUP/PS
+	directory = /home/ljl/other_disks/d/study/UPUP/CV
+	directory = /home/ljl/other_disks/d/study/UPUP/SI
+	directory = /home/ljl/other_disks/d/study/ZJU/AI/Project_1_n_puzzle_tictactoe
+	directory = /home/ljl/other_disks/d/study/ZJU/embedded/desktop
+[http]
+	proxy = http://127.0.0.1:1090
+[https]
+	proxy = http://127.0.0.1:1090
+[core]
+	autocrlf = input

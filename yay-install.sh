@@ -456,7 +456,9 @@ yay -Sy neovim\
     zathura\
     zathura-pdf-poppler\
     zoom\
-    cargo-nextest
+    cargo-nextest\
+    wezterm
+
 
 
 # xmake
