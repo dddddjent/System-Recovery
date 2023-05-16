@@ -21,6 +21,7 @@
 	directory = /home/ljl/other_disks/d/study/UPUP/SI
 	directory = /home/ljl/other_disks/d/study/ZJU/AI/Project_1_n_puzzle_tictactoe
 	directory = /home/ljl/other_disks/d/study/ZJU/embedded/desktop
+	directory = /home/ljl/other_disks/d/study/ZJU/AI/Project 2/particle_filter_obj_tracker-publish
 [http]
 	proxy = http://127.0.0.1:1090
 [https]

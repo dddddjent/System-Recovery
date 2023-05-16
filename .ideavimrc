@@ -49,11 +49,20 @@ vnoremap <C-c> "+y
 nnoremap < <<
 nnoremap > >>
 
-noremap <LEADER>w <C-w>w
-noremap <LEADER>k <C-w>k
-noremap <LEADER>j <C-w>j
-noremap <LEADER>h <C-w>h
-noremap <LEADER>l <C-w>l
+"noremap <LEADER>w <C-w>w
+"noremap <LEADER>k <C-w>k
+"noremap <LEADER>j <C-w>j
+"noremap <LEADER>h <C-w>h
+"noremap <LEADER>l <C-w>l
+noremap <C-k> <C-w>k
+noremap <C-j> <C-w>j
+noremap <C-h> <C-w>h
+noremap <C-l> <C-w>l
+noremap - :split<cr>
+noremap <leader>\ :vsplit<cr>
+noremap <leader>q :q<cr>
+noremap <leader>w :w<cr>
+
 
 noremap za zc
 noremap zx zo
@@ -62,11 +71,12 @@ noremap zx zo
 "" Map \r to the Reformat Code action
 "map \r <Action>(ReformatCode)
 " 代码格式化功能 <leader>fc
-nnoremap fc :action ReformatCode<CR>
+"nnoremap fc :action ReformatCode<CR>
+nnoremap <Leader>lf :action ReformatCode<CR>
 " 指定InspectCode
 nnoremap <Leader>ic :action InspectCode<CR>
 " idea自带的搜索功能
-nnoremap f :action Find<CR>
+" nnoremap f :action Find<CR>
 " gi   GotoImplementation
 nnoremap gi :action GotoImplementation<CR>
 " gd   GotoDeclaration
@@ -75,8 +85,12 @@ nnoremap gd :action GotoDeclaration<CR>
 nnoremap gf :action GotoFile<CR>
 " 设置debug为 zd
 nnoremap zd :action Debug<CR>
+set easymotion
+nmap F <Plug>(easymotion-bd-f)
+nmap f <Plug>(easymotion-f)
 
-
+" debug
+nnoremap <Leader>1 :action ToggleLineBreakpoint<CR>
 
 "" Map <leader>d to start debug
 "map <leader>d <Action>(Debug)
@@ -86,4 +100,3 @@ nnoremap zd :action Debug<CR>
 
 
 " Find more examples here: https://jb.gg/share-ideavimrc
-set clipboard+=ideaput

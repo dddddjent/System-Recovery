@@ -98,7 +98,7 @@ source /usr/share/fzf/completion.zsh
 
 # DOOM emacs
 export PATH="$HOME/.emacs.d/bin:$PATH"
-alias emacs="emacsclient -c -a 'nvim'"
+alias em="emacsclient -c -a 'nvim'"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh

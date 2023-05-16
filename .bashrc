@@ -257,3 +257,5 @@ eval "$(starship init bash)"
 
 ### Additional env PATH 
 export PATH="/home/ljl/Documents/ThirdParty/taichi-llvm-15:$PATH"
+export PM_PACKAGES_ROOT=$HOME/packman-repo
+

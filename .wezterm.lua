@@ -47,9 +47,12 @@ return {
     -- font
     -- font = wezterm.font_with_fallback { 'MesloLGL Nerd Font Mono', 'DengXian', },
     -- font = wezterm.font_with_fallback { 'MesloLGL Nerd Font Mono', },
-    font                      = wezterm.font_with_fallback { 'JetbrainsMono Nerd Font Mono', 'DengXian',},
-    font_size                 = 17.0,
-    line_height               = 1.2,
+    -- font                      = wezterm.font_with_fallback { 'JetbrainsMono Nerd Font Mono', 'DengXian',},
+    -- line_height               = 1.2,
+    -- font_size                 = 17.0,
+    font                      = wezterm.font_with_fallback { 'Comic Mono', {family="Symbols Nerd Font Mono",scale=0.6},},
+    font_size                 = 19.0,
+    line_height               = 1.3,
     -- color_scheme
     color_scheme              = 'Catppuccin Macchiato',
     window_background_opacity = 0.82,
