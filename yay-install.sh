@@ -461,5 +461,3 @@ yay -Sy neovim\
 
 
 
-# xmake
-bash <(curl -fsSL https://xmake.io/shget.text)

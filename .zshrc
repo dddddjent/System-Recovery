@@ -25,6 +25,7 @@ if [[ -e /usr/share/zsh/manjaro-zsh-prompt ]]; then
     source /usr/share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme
 fi
 
+bindkey ',' autosuggest-accept
 
 # -------------------------------------------
 # My own config
@@ -104,3 +105,5 @@ alias em="emacsclient -c -a 'nvim'"
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
+# Conda
+export PATH="/opt/anaconda/bin:$PATH"
