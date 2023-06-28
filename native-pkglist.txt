@@ -35,6 +35,8 @@ appmenu-gtk-module
 appstream
 appstream-glib
 appstream-qt
+apr
+apr-util
 arc-icon-theme
 archlinux-appstream-data
 archlinux-keyring
@@ -48,6 +50,7 @@ arm-none-eabi-gcc
 arm-none-eabi-gdb
 arm-none-eabi-newlib
 asciidoc
+asymptote
 at-spi2-core
 atkmm
 attica
@@ -62,6 +65,7 @@ b43-fwcutter
 baloo
 baloo-widgets
 base
+base-devel
 bash
 bash-language-server
 bashrc-manjaro
@@ -80,6 +84,7 @@ bluez-utils
 boost
 boost-libs
 botan
+botan2
 breeze
 breeze-gtk
 breeze-icons
@@ -99,6 +104,7 @@ cairomm
 cantarell-fonts
 capstone
 cargo-nextest
+catch2
 cblas
 cdparanoia
 certbot
@@ -164,9 +170,11 @@ docbook-xsl
 docker
 dolphin
 dolphin-plugins
+dos2unix
 dosfstools
 dotnet-host
 dotnet-runtime
+dotnet-runtime-6.0
 dotnet-sdk
 dotnet-targeting-pack
 double-conversion
@@ -187,11 +195,13 @@ electron19
 elisa
 emacs
 enchant
+enet
 ethtool
 exfatprogs
 exiv2
 expat
 expect
+extra-cmake-modules
 f2fs-tools
 faac
 faad2
@@ -229,6 +239,7 @@ foomatic-db-gutenprint-ppds
 foomatic-db-nonfree
 foomatic-db-nonfree-ppds
 foomatic-db-ppds
+fop
 frameworkintegration
 freeglut
 freerdp
@@ -246,6 +257,8 @@ gc
 gcab
 gcc
 gcc-libs
+gcc12
+gcc12-libs
 gcr
 gcr-4
 gd
@@ -302,7 +315,9 @@ gptfdisk
 gradle
 grantlee
 graphene
+graphicsmagick
 graphite
+graphviz
 grep
 groff
 grpc
@@ -312,6 +327,7 @@ grub-theme-manjaro
 gsettings-desktop-schemas
 gsettings-qt
 gsfonts
+gsl
 gsm
 gspell
 gssdp
@@ -332,6 +348,7 @@ gtk3
 gtk4
 gtkmm3
 gtksourceview3
+gts
 gufw
 guile
 gumbo-parser
@@ -679,8 +696,13 @@ iw
 jack2
 jansson
 jasper
+java-avalon-framework
+java-batik
+java-commons-io
+java-commons-logging
 java-environment-common
 java-runtime-common
+java-xmlgraphics-commons
 jbig2dec
 jdk11-openjdk
 jdk8-openjdk
@@ -817,6 +839,7 @@ ldns
 ledger-live-bin
 less
 leveldb
+lib2geom
 lib32-acl
 lib32-alsa-lib
 lib32-alsa-plugins
@@ -861,6 +884,7 @@ lib32-libcanberra
 lib32-libcap
 lib32-libcups
 lib32-libdatrie
+lib32-libdecor
 lib32-libdrm
 lib32-libelf
 lib32-libepoxy
@@ -916,6 +940,7 @@ lib32-libxft
 lib32-libxi
 lib32-libxinerama
 lib32-libxkbcommon
+lib32-libxkbcommon-x11
 lib32-libxml2
 lib32-libxmu
 lib32-libxrandr
@@ -996,6 +1021,7 @@ libcbor
 libcddb
 libcdio
 libcdio-paranoia
+libcdr
 libcgif
 libcloudproviders
 libcolord
@@ -1034,6 +1060,7 @@ libfm-extra
 libfm-gtk2
 libfontenc
 libfreeaptx
+libfreehand
 libftdi
 libftdi-compat
 libgcrypt
@@ -1103,6 +1130,7 @@ libmpc
 libmpcdec
 libmpeg2
 libmspack
+libmspub
 libmtp
 libnatpmp
 libndp
@@ -1125,6 +1153,7 @@ libopenmpt
 libotf
 libp11-kit
 libpackagekit-glib
+libpagemaker
 libpamac
 libpamac-flatpak-plugin
 libpaper
@@ -1143,9 +1172,11 @@ libqaccessibilityclient
 libqalculate
 libqmi
 libqrtr-glib
+libqxp
 libraqm
 libraw
 libraw1394
+librevenge
 librsvg
 libsamplerate
 libsasl
@@ -1200,6 +1231,7 @@ libva-mesa-driver
 libvdpau
 libverto
 libvips
+libvisio
 libvisual
 libvncserver
 libvorbis
@@ -1208,7 +1240,9 @@ libvterm
 libwacom
 libwbclient
 libwebp
+libwpd
 libwpe
+libwpg
 libx11
 libx86emu
 libxau
@@ -1251,6 +1285,7 @@ libxxf86vm
 libyaml
 libyuv
 libzip
+libzmf
 licenses
 lilv
 linux-api-headers
@@ -1267,6 +1302,7 @@ llvm
 llvm-libs
 lm_sensors
 lmdb
+log4cxx
 logrotate
 lolcat
 lsb-release
@@ -1342,6 +1378,7 @@ mkcert
 mkinitcpio
 mkinitcpio-busybox
 mkinitcpio-openswap
+mlocate
 mobile-broadband-provider-info
 modemmanager
 modemmanager-qt
@@ -1366,6 +1403,7 @@ neon
 neovim
 net-snmp
 net-tools
+netpbm
 netstandard-targeting-pack
 nettle
 network-manager-applet
@@ -1419,6 +1457,7 @@ openmpi
 openocd
 openpmix
 openresolv
+openscenegraph
 openssh
 openssl
 openssl-1.1
@@ -1609,6 +1648,7 @@ plasma-workspace
 plasma-workspace-wallpapers
 plasma5-themes-breath
 plasma5-themes-breath-migration
+podofo
 polkit
 polkit-kde-agent
 polkit-qt5
@@ -1631,6 +1671,7 @@ procps-ng
 protobuf
 protobuf-c
 psmisc
+psutils
 pugixml
 pulseaudio
 pulseaudio-alsa
@@ -1661,6 +1702,7 @@ python-commonmark
 python-configargparse
 python-configobj
 python-cryptography
+python-cssselect
 python-decorator
 python-distlib
 python-distro
@@ -1733,6 +1775,7 @@ python-sortedcontainers
 python-systemd
 python-tenacity
 python-tomli
+python-tqdm
 python-trove-classifiers
 python-typing_extensions
 python-uc-micro-py
@@ -1765,6 +1808,7 @@ qt5-multimedia
 qt5-networkauth
 qt5-quickcontrols
 qt5-quickcontrols2
+qt5-script
 qt5-sensors
 qt5-speech
 qt5-svg
@@ -1793,6 +1837,8 @@ qt6-webchannel
 qt6-webengine
 qtcreator
 qutebrowser
+racket
+ragel
 ranger
 rapidjson
 raptor
@@ -1809,6 +1855,7 @@ rhash
 ripgrep
 riscv32-elf-binutils
 rnnoise
+robin-map
 rpcbind
 rsync
 rtkit
@@ -1927,6 +1974,7 @@ speex
 speexdsp
 spice
 spice-protocol
+spirv-headers
 spirv-tools
 splix
 sqlite
@@ -1952,6 +2000,7 @@ systemd-libs
 systemd-sysvcompat
 systemsettings
 t1lib
+t1utils
 taglib
 talloc
 tar
@@ -1999,6 +2048,7 @@ unarchiver
 unibilium
 unzip
 upower
+uriparser
 usb_modeswitch
 usbmuxd
 usbutils
@@ -2129,6 +2179,7 @@ zathura-pdf-poppler
 zbar
 zenity
 zeromq
+zig
 zimg
 zip
 zlib
@@ -2141,4 +2192,6 @@ zsh-theme-powerlevel10k
 zstd
 zvbi
 zxing-cpp
+zycore-c
+zydis
 zziplib

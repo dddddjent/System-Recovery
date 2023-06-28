@@ -1,5 +1,4 @@
 adduser
-anaconda
 argparse
 autotiling
 baidunetdisk-bin
@@ -10,6 +9,7 @@ deepin-wine-qq
 deepin-wine-wechat
 dingtalk-bin
 fcitx-sogoupinyin
+foxitreader
 frpc
 genext2fs
 goneovim-bin
@@ -33,6 +33,7 @@ sunloginclient
 systemd-fsck-silent
 ttf-ms-fonts
 ttf-wps-fonts
+tuxguitar
 unityhub
 uxplay
 verible-bin

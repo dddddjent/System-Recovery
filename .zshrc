@@ -30,7 +30,8 @@ bindkey ',' autosuggest-accept
 # -------------------------------------------
 # My own config
 alias l="lvim"
-alias n="neovide"
+alias n="nvim"
+alias nclean="nvim --clean"
 eval $(thefuck --alias)
 
 
@@ -101,6 +102,9 @@ source /usr/share/fzf/completion.zsh
 # DOOM emacs
 export PATH="$HOME/.emacs.d/bin:$PATH"
 alias em="emacsclient -c -a 'nvim'"
+
+# Texlive -tlmgr
+alias tlmgr='/usr/share/texmf-dist/scripts/texlive/tlmgr.pl --usermode'
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
