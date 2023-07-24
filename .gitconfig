@@ -26,6 +26,10 @@
 	directory = /home/ljl/other_disks/d/study/ZJU/computer_network/server
 	directory = /home/ljl/other_disks/d/study/ZJU/computer_network/client
 	directory = /home/ljl/other_disks/d/study/ZJU/AI/final_project
+	directory = /home/ljl/other_disks/d/study/ZJU/AdvancedDigiCiru/Light
+	directory = /home/ljl/other_disks/d/study/ZJU/AdvancedDigiCiru/light
+	directory = /home/ljl/other_disks/d/study/SummerSession/CS20/3
+	directory = /home/ljl/other_disks/d/study/SummerSession/DS/3
 [http]
 	proxy = http://127.0.0.1:1090
 [https]
