@@ -4,9 +4,11 @@ autotiling
 baidunetdisk-bin
 code-minimap
 codelldb-bin
+compdb
 debtap
 deepin-wine-wechat
 dingtalk-bin
+electron-netease-cloud-music
 electron19
 fcitx-sogoupinyin
 foxitreader
@@ -30,10 +32,12 @@ microsoft-edge-stable-bin
 multicolor-sddm-theme
 netease-cloud-music
 nodejs-tget
+notion-app
 npc
 nps
 pgyvpn-bin
 prince-bin
+python-anytree
 qdirstat
 shell-color-scripts
 sunloginclient
