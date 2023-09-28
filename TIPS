@@ -1,0 +1,38 @@
+STEAM
+paradox celeste 这些存档 都在 /home/ljl/.local/share下
+steam 游戏都在/home/ljl/.steam/steam/steamapps
+steam 很多存档都在/home/ljl/.local/share/Steam/steamapps/compatdata/
+steam加速器在/home/ljl/Desktop/ascf_v2.0.0_Linux_x64
+
+TTY
+亮度
+    sudo modprobe i2c-dev
+    sudo ddcutil setvcp 10 13
+
+找
+find . -name "   "
+
+放缩
+找到启动文件在/usr/share/applications
+GTK:exec=env GTK_SCALE_FACTOR=2 env GTK_DPI_SCALE_FACTOR=0.5 .......
+QT:exec=env QT_SCALE=2
+
+Github token
+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
+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
+
+Ptrace (attach process protection)
+echo 0 | sudo tee /proc/sys/kernel/yama/ptrace_scope
+
+声卡缺失：
+    Use pavucontrol to take it back
+        On page "Configuration (c)"
+
+京造键盘F keys 驱动问题
+  echo "options hid_apple fnmode=0" | sudo tee -a /etc/modprobe.d/hid_apple.conf
+  
+  sudo update-initramfs -u  	//Ubuntu
+  mkinitcpio -P   			//ArchLinux
+
+wechat 缩放
+env WINEPREFIX=/home/ljl/.deepinwine/Deepin-WeChat deepin-wine6-stable winecfg 改dpi
