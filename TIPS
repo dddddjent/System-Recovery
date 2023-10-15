@@ -25,10 +25,6 @@ find . -name "   "
         # 安装微信输入框乱码问题解决方法
         # 复制windows某个字体到 $HOME/.deepinwine/Deepin-WeChat/drive_c/windows/Fonts下，并安装
 
-Github token
-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
-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
-
 Ptrace (attach process protection)
 echo 0 | sudo tee /proc/sys/kernel/yama/ptrace_scope
 
