@@ -32,9 +32,19 @@
 	directory = /home/ljl/other_disks/d/study/SummerSession/DS/3
 	directory = /home/ljl/other_disks/d/study/SummerSession/DS/4
 	directory = /home/ljl/other_disks/d/study/SummerSession/DS/project
+	directory = /home/ljl/other_disks/d/study/UPUP/CV/template/template-full
 [http]
 	proxy = http://127.0.0.1:1090
 [https]
 	proxy = http://127.0.0.1:1090
 [core]
 	autocrlf = input
+[pull]
+	rebase = false
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[credential]
+	helper = store

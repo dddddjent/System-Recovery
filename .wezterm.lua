@@ -35,12 +35,15 @@ end
 
 return {
     -- Appearance
-    window_padding            = {
+    window_padding               = {
         left = '0.3cell', -- cell means the line_height
         right = '0cell',
         top = '0.0cell',
         bottom = '0.0cell',
     },
+    hide_tab_bar_if_only_one_tab = true,
+    enable_tab_bar               = false,
+
     -- launch_menu
     default_prog              = { "zsh" },
     launch_menu               = launch_menu,

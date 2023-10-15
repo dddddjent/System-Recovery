@@ -13,9 +13,17 @@ TTY
 find . -name "   "
 
 放缩
-找到启动文件在/usr/share/applications
-GTK:exec=env GTK_SCALE_FACTOR=2 env GTK_DPI_SCALE_FACTOR=0.5 .......
-QT:exec=env QT_SCALE=2
+    找到启动文件在/usr/share/applications
+    GTK:exec=env GTK_SCALE_FACTOR=2 env GTK_DPI_SCALE_FACTOR=0.5 .......
+    QT:exec=env QT_SCALE=2
+    steam 好像是
+    Exec=/usr/bin/steam-runtime %U -forcedesktopscaling 1.25 GDK_SCALE=1.5
+    钉钉自带
+    wechat:
+        env WINEPREFIX="$HOME/.deepinwine/Deepin-WeChat" /usr/bin/deepin-wine6-stable winecfg
+        dpi 改成120 (or 125?)
+        # 安装微信输入框乱码问题解决方法
+        # 复制windows某个字体到 $HOME/.deepinwine/Deepin-WeChat/drive_c/windows/Fonts下，并安装
 
 Github token
 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
@@ -33,6 +41,3 @@ echo 0 | sudo tee /proc/sys/kernel/yama/ptrace_scope
   
   sudo update-initramfs -u  	//Ubuntu
   mkinitcpio -P   			//ArchLinux
-
-wechat 缩放
-env WINEPREFIX=/home/ljl/.deepinwine/Deepin-WeChat deepin-wine6-stable winecfg 改dpi

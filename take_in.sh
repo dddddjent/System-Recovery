@@ -9,4 +9,3 @@ cp ~/.wezterm.lua .
 cp ~/.ideavimrc .      
 cp ~/.gitconfig .
 cp ~/.tmux.conf .
-cp ../TIPS .

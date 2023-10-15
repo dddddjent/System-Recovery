@@ -11,6 +11,7 @@ dingtalk-bin
 electron-netease-cloud-music
 electron19
 fcitx-sogoupinyin
+foxitpdfeditor-bin
 foxitreader
 frpc
 genext2fs
@@ -32,11 +33,13 @@ microsoft-edge-stable-bin
 multicolor-sddm-theme
 netease-cloud-music
 nodejs-tget
-notion-app
+notion-app-enhanced
 npc
 nps
 pgyvpn-bin
 prince-bin
+protoc-gen-grpc-web
+protoc-gen-js-bin
 python-anytree
 qdirstat
 shell-color-scripts
