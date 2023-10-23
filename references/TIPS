@@ -37,3 +37,6 @@ echo 0 | sudo tee /proc/sys/kernel/yama/ptrace_scope
   
   sudo update-initramfs -u  	//Ubuntu
   mkinitcpio -P   			//ArchLinux
+
+git:
+    git config --global credential.helper store 存github凭证
