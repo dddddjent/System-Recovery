@@ -52,6 +52,7 @@ export LLVM_DIR=/home/ljl/Documents/ThirdParty/taichi-llvm-15
 
 # 1 新建会话
 alias tnew="tmux new -s "
+alias tn="tmux new -s "
 # 2 分离会话(ctrl+b d)
 alias tdetach="tmux detach"
 # 3 列出会话(ctrl+b s)
@@ -59,6 +60,7 @@ alias tlist="tmux ls"
 alias tls="tmux ls"
 # 4 接入会话
 alias tattach="tmux attach -t "
+alias ta="tmux attach -t "
 # 5 杀死指定会话
 alias tkill="tmux kill-session -t "
 # 6 杀死全部会话
@@ -111,3 +113,7 @@ alias tlmgr='/usr/share/texmf-dist/scripts/texlive/tlmgr.pl --usermode'
 
 # Conda
 export PATH="/opt/anaconda/bin:$PATH"
+
+# tmuxinator
+export EDITOR="nvim"
+alias mux=tmuxinator

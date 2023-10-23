@@ -2,10 +2,10 @@
 
 # put them at the correct location
 
-cp .zshrc ~/.zshrc         -f
-cp .bashrc ~/.bashrc       -f
-cp .vimrc ~/.vimrc         -f
-cp .wezterm.lua ~/.wezterm.lua  -f
-cp .ideavimrc ~/.ideavimrc -f     
-cp .gitconfig ~/.gitconfig -f
-cp .tmux.conf ~/.tmux.conf -f
+cp ./configurations/.zshrc ~/.zshrc         -f
+cp ./configurations/.bashrc ~/.bashrc       -f
+cp ./configurations/.vimrc ~/.vimrc         -f
+cp ./configurations/.wezterm.lua ~/.wezterm.lua  -f
+cp ./configurations/.ideavimrc ~/.ideavimrc -f     
+cp ./configurations/.gitconfig ~/.gitconfig -f
+cp ./configurations/.tmux.conf ~/.tmux.conf -f

@@ -2,10 +2,10 @@
 
 # copy all the important configs
 
-cp ~/.zshrc .      
-cp ~/.bashrc .      
-cp ~/.vimrc .      
-cp ~/.wezterm.lua .      
-cp ~/.ideavimrc .      
-cp ~/.gitconfig .
-cp ~/.tmux.conf .
+cp ~/.zshrc ./configurations/
+cp ~/.bashrc ./configurations/
+cp ~/.vimrc ./configurations/
+cp ~/.wezterm.lua ./configurations/
+cp ~/.ideavimrc ./configurations/
+cp ~/.gitconfig ./configurations/
+cp ~/.tmux.conf ./configurations/
