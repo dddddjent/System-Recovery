@@ -9,3 +9,4 @@ cp ./configurations/.wezterm.lua ~/.wezterm.lua  -f
 cp ./configurations/.ideavimrc ~/.ideavimrc -f     
 cp ./configurations/.gitconfig ~/.gitconfig -f
 cp ./configurations/.tmux.conf ~/.tmux.conf -f
+cp ./configurations/tmuxinator-default.yml ~/.config/tmuxinator/default.yml -f
