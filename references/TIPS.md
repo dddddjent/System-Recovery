@@ -9,7 +9,7 @@
 
 亮度
 
-```
+```bash
 sudo modprobe i2c-dev
 sudo ddcutil setvcp 10 13
 ```
@@ -47,7 +47,7 @@ Ptrace (attach process protection)<br/>
 
 ## 京造键盘F keys 驱动问题
 
-```
+```bash
 echo "options hid_apple fnmode=0" | sudo tee -a /etc/modprobe.d/hid_apple.conf
 
 sudo update-initramfs -u //Ubuntu
@@ -68,3 +68,10 @@ mkinitcpio -P //ArchLinux
    - https://www.reddit.com/r/firefox/wiki/userchrome/: find userchrome.css
    - paste the userchrome.css in this repository to ur css
      `https://github.com/dddddjent/SlimBarsFirefox`
+
+## QEMU
+1. Install ubuntu
+```bash
+qemu-img create -f qcow2 ubuntu.qcow2 20G
+qemu-system-x86_64 -boot d -cdrom "/home/ljl/Downloads/ubuntu-22.04.3-desktop-amd64.iso" -enable-kvm -smp 4 -device intel-hda -device hda-duplex  -device virtio-vga-gl  -net nic -net user,hostfwd=tcp::5555-:5555    -cpu host  -m 4096  -display sdl,gl=on -hda ubuntu.qcow2
+```

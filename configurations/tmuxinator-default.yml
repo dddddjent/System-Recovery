@@ -57,5 +57,5 @@ windows:
   - misc:
       layout: even-horizontal
       panes:
-        - echo 0
-        - echo 1
+        - clear
+        - clear

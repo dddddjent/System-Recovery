@@ -117,3 +117,10 @@ export PATH="/opt/anaconda/bin:$PATH"
 # tmuxinator
 export EDITOR="nvim"
 alias mux=tmuxinator
+# pseudo_run_tmuxfzf_widget() {
+#   source ~/tmuxinator-fzf-start.sh
+# }
+# zle -N pseudo_run_tmuxfzf_widget
+# stty start '^-' stop '^-'
+# bindkey '^S' pseudo_run_tmuxfzf_widget
+alias s='~/tmuxinator-fzf-start.sh'
