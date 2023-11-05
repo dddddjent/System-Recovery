@@ -1,11 +1,21 @@
-# <file system> <mount point> <type> <options> <dump> <pass>
+# Static information about the filesystems.
+# See fstab(5) for details.
 
-UUID=fadc05e9-df50-476f-94ed-7318dc2b3a60	/boot	ext4	defaults,noatime	0	2
-UUID=BA49-12CE	/boot/efi	vfat	umask=0077	0	2
-UUID=7f90cb0a-5bea-4d87-8e16-0076028db28e	/	ext4	defaults,noatime	0	1
-UUID=f247b2f0-7886-4d21-acb9-d6934330ca25	/home	ext4	defaults,noatime	0	2
-tmpfs	/tmp	tmpfs	defaults,noatime,mode=1777	0	0
-UUID=FC5169902AABF96D	/home/ljl/other_disks/d	ntfs	defaults	0	2
-UUID=A6C0D3C8C0D39CBD	/home/ljl/other_disks/e	ntfs	defaults	0	2
-UUID=066E1B246E1B0C55	/home/ljl/other_disks/c	ntfs	defaults	0	2
-UUID=963AD6803AD65CB5	/home/ljl/other_disks/a	ntfs	defaults	0	2
+# <file system> <dir> <type> <options> <dump> <pass>
+# /dev/nvme0n1p5
+UUID=4bc09f71-67e6-44db-8864-be510f632ab7       /               ext4            rw,relatime     0 1
+
+# /dev/nvme0n1p3
+UUID=7583-39C5          /boot           vfat            rw,relatime,fmask=0022,dmask=0022,codepage=437,iocharset=ascii,shortname=mixed,utf8,errors=remount-ro   0 
+2
+
+# /dev/nvme0n1p6
+UUID=cc8883f8-ac3c-47b7-90ae-07c63737b075       /home           ext4            rw,relatime     0 2
+
+# /dev/nvme0n1p4
+UUID=bb61f207-7c70-4bf9-8ba0-3251026408c2       none            swap            defaults        0 0
+
+UUID=FC5169902AABF96D   /home/ljl/other_disks/d ntfs    defaults        0       2
+UUID=A6C0D3C8C0D39CBD   /home/ljl/other_disks/e ntfs    defaults        0       2
+UUID=066E1B246E1B0C55   /home/ljl/other_disks/c ntfs    defaults        0       2
+UUID=963AD6803AD65CB5   /home/ljl/other_disks/a ntfs    defaults        0       2

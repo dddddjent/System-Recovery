@@ -1,5 +1,6 @@
 deepin-wine-wechat
 dingtalk-bin
+electron-netease-cloud-music
 linuxqq-appimage
 paru
 tmuxinator

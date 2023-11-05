@@ -1,3 +1,4 @@
+a52dec
 accounts-qml-module
 accountsservice
 acl
@@ -16,6 +17,7 @@ appstream-qt
 archlinux-appstream-data
 archlinux-keyring
 argon2
+aribb24
 ark
 at-spi2-core
 atkmm
@@ -37,6 +39,7 @@ bluedevil
 bluez
 bluez-libs
 bluez-qt5
+bluez-utils
 bolt
 boost-libs
 box2d
@@ -58,6 +61,7 @@ cairomm
 cantarell-fonts
 cblas
 cdparanoia
+cfitsio
 cifs-utils
 clang
 clinfo
@@ -100,9 +104,12 @@ efibootmgr
 efivar
 egl-wayland
 eglexternalplatform
+electron
+electron25
 enchant
 exiv2
 expat
+faad2
 fakeroot
 fcitx5
 fcitx5-chinese-addons
@@ -112,6 +119,7 @@ fcitx5-material-color
 fcitx5-qt
 fd
 ffmpeg
+ffmpeg4.4
 fftw
 file
 filesystem
@@ -124,6 +132,7 @@ flex
 fmt
 fontconfig
 frameworkintegration5
+freeglut
 freetype2
 fribidi
 fuse-common
@@ -147,6 +156,7 @@ glib-networking
 glib2
 glibc
 glibmm
+glslang
 glu
 gmp
 gnu-free-fonts
@@ -177,6 +187,7 @@ gtk3
 gtkmm3
 gtksourceview4
 guile
+gwenview
 gzip
 harfbuzz
 harfbuzz-icu
@@ -199,6 +210,7 @@ iputils
 iso-codes
 jack2
 jansson
+jasper
 jbigkit
 json-c
 json-glib
@@ -214,6 +226,7 @@ kbd
 kbookmarks5
 kcmutils5
 kcodecs5
+kcolorpicker
 kcompletion5
 kconfig5
 kconfigwidgets5
@@ -242,6 +255,7 @@ khotkeys
 ki18n5
 kiconthemes5
 kidletime5
+kimageannotator
 kinfocenter
 kio-extras
 kio-fuse
@@ -443,12 +457,16 @@ libdatrie
 libdbusmenu-glib
 libdbusmenu-gtk3
 libdbusmenu-qt5
+libdca
 libde265
 libdecor
 libdeflate
 libdmtx
+libdovi
 libdrm
+libdvbpsi
 libe-book
+libebml
 libedit
 libelf
 libepoxy
@@ -472,6 +490,7 @@ libgudev
 libheif
 libical
 libice
+libidn
 libidn2
 libiec61883
 libimagequant
@@ -484,19 +503,25 @@ libixion
 libjpeg-turbo
 libjpeg6-turbo
 libjxl
+libkdcraw
 libkexiv2
 libksba
 libkscreen
 libksysguard
 liblangtag
 libldap
+libmad
 libmalcontent
+libmatroska
 libmbim
 libmd
+libmfx
 libmm-glib
 libmnl
 libmodplug
 libmpc
+libmpcdec
+libmpeg2
 libmspub
 libmtp
 libmwaw
@@ -524,6 +549,7 @@ libpciaccess
 libpgm
 libpipeline
 libpipewire
+libplacebo
 libplist
 libpng
 libproxy
@@ -535,6 +561,7 @@ libqmi
 libqrtr-glib
 libqxp
 libraqm
+libraw
 libraw1394
 libreoffice-fresh
 librevenge
@@ -555,6 +582,7 @@ libssh2
 libstaroffice
 libstemmer
 libsysprof-capture
+libtar
 libtasn1
 libteam
 libthai
@@ -566,6 +594,7 @@ libtool
 libudev0-shim
 libunistring
 libunwind
+libupnp
 libusb
 libusbmuxd
 libutempter
@@ -635,6 +664,7 @@ lmdb
 lpsolve
 lsb-release
 lsof
+lua
 lvm2
 lz4
 lzo
@@ -903,6 +933,7 @@ sddm-kcm
 sdl2
 sed
 semver
+shaderc
 shadow
 shared-mime-info
 signon-kwallet-extension
@@ -918,6 +949,7 @@ solid5
 sonnet5
 sound-theme-freedesktop
 source-highlight
+spectacle
 speex
 speexdsp
 spirv-tools
@@ -963,6 +995,7 @@ vid.stab
 vim
 vim-runtime
 vkd3d
+vlc
 vmaf
 volume_key
 vte-common
@@ -977,6 +1010,7 @@ wezterm-shell-integration
 wezterm-terminfo
 wget
 which
+woff2
 wpa_supplicant
 wqy-microhei
 wqy-zenhei
@@ -1055,6 +1089,7 @@ xorgproto
 xvidcore
 xxhash
 xz
+yarn
 zenity
 zeromq
 zimg
