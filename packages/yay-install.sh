@@ -1,6 +1,6 @@
 #!/bin/bash
 
-yay -Sy neovim\
+paru -Sy neovim\
     cmake\
     fzf\
     wemeet-bin\

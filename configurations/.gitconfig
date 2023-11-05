@@ -34,9 +34,9 @@
 	directory = /home/ljl/other_disks/d/study/SummerSession/DS/project
 	directory = /home/ljl/other_disks/d/study/UPUP/CV/template/template-full
 [http]
-	proxy = http://127.0.0.1:1090
+	proxy = socks5://127.0.0.1:1090
 [https]
-	proxy = http://127.0.0.1:1090
+	proxy = socks5://127.0.0.1:1090
 [core]
 	autocrlf = input
 [pull]

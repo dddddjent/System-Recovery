@@ -1,4 +1,4 @@
 #!/bin/bash
 
-yay -Qqn > native-pkglist.txt
-yay -Qqme > foreign-pkglist.txt
+paru -Qqn > packages/native-pkglist.txt
+paru -Qqme > packages/foreign-pkglist.txt

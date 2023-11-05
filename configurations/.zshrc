@@ -1,5 +1,3 @@
-typeset -g POWERLEVEL9K_INSTANT_PROMPT=off
-
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
 # Initialization code that may require console input (password prompts, [y/n]
 # confirmations, etc.) must go above this block; everything else may go below.
@@ -7,83 +5,119 @@ if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]
   source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
 fi
 
-# Use powerline
+# If you come from bash you might have to change your $PATH.
+# export PATH=$HOME/bin:/usr/local/bin:$PATH
+
+# Path to your oh-my-zsh installation.
+export ZSH="$HOME/.oh-my-zsh"
+
+# Set name of the theme to load --- if set to "random", it will
+# load a random theme each time oh-my-zsh is loaded, in which case,
+# to know which specific one was loaded, run: echo $RANDOM_THEME
+# See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
+# ZSH_THEME="robbyrussell"
 USE_POWERLINE="true"
 ZSH_THEME="powerlevel10k/powerlevel10k"
-# Source manjaro-zsh-configuration
-if [[ -e /usr/share/zsh/manjaro-zsh-config ]]; then
-    source /usr/share/zsh/manjaro-zsh-config
-    source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-    source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
-    source /usr/share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme
-fi
-# Use manjaro zsh prompt
-if [[ -e /usr/share/zsh/manjaro-zsh-prompt ]]; then
-    source /usr/share/zsh/manjaro-zsh-prompt
-    source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-    source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
-    source /usr/share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme
-fi
+# Set list of themes to pick from when loading at random
+# Setting this variable when ZSH_THEME=random will cause zsh to load
+# a theme from this variable instead of looking in $ZSH/themes/
+# If set to an empty array, this variable will have no effect.
+# ZSH_THEME_RANDOM_CANDIDATES=( "robbyrussell" "agnoster" )
 
-bindkey ',' autosuggest-accept
+# Uncomment the following line to use case-sensitive completion.
+# CASE_SENSITIVE="true"
+
+# Uncomment the following line to use hyphen-insensitive completion.
+# Case-sensitive completion must be off. _ and - will be interchangeable.
+# HYPHEN_INSENSITIVE="true"
+
+# Uncomment one of the following lines to change the auto-update behavior
+# zstyle ':omz:update' mode disabled  # disable automatic updates
+# zstyle ':omz:update' mode auto      # update automatically without asking
+# zstyle ':omz:update' mode reminder  # just remind me to update when it's time
+
+# Uncomment the following line to change how often to auto-update (in days).
+# zstyle ':omz:update' frequency 13
+
+# Uncomment the following line if pasting URLs and other text is messed up.
+# DISABLE_MAGIC_FUNCTIONS="true"
+
+# Uncomment the following line to disable colors in ls.
+# DISABLE_LS_COLORS="true"
+
+# Uncomment the following line to disable auto-setting terminal title.
+# DISABLE_AUTO_TITLE="true"
+
+# Uncomment the following line to enable command auto-correction.
+# ENABLE_CORRECTION="true"
+
+# Uncomment the following line to display red dots whilst waiting for completion.
+# You can also set it to another string to have that shown instead of the default red dots.
+# e.g. COMPLETION_WAITING_DOTS="%F{yellow}waiting...%f"
+# Caution: this setting can cause issues with multiline prompts in zsh < 5.7.1 (see #5765)
+# COMPLETION_WAITING_DOTS="true"
+
+# Uncomment the following line if you want to disable marking untracked files
+# under VCS as dirty. This makes repository status check for large repositories
+# much, much faster.
+# DISABLE_UNTRACKED_FILES_DIRTY="true"
+
+# Uncomment the following line if you want to change the command execution time
+# stamp shown in the history command output.
+# You can set one of the optional three formats:
+# "mm/dd/yyyy"|"dd.mm.yyyy"|"yyyy-mm-dd"
+# or set a custom format using the strftime function format specifications,
+# see 'man strftime' for details.
+# HIST_STAMPS="mm/dd/yyyy"
+
+# Would you like to use another custom folder than $ZSH/custom?
+# ZSH_CUSTOM=/path/to/new-custom-folder
+
+# Which plugins would you like to load?
+# Standard plugins can be found in $ZSH/plugins/
+# Custom plugins may be added to $ZSH_CUSTOM/plugins/
+# Example format: plugins=(rails git textmate ruby lighthouse)
+# Add wisely, as too many plugins slow down shell startup.
+plugins=(git)
+
+source $ZSH/oh-my-zsh.sh
 
 # -------------------------------------------
-# My own config
+# User configuration
+
+# zsh
+# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
+[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
+bindkey ',' autosuggest-accept
+
 alias l="lvim"
 alias n="nvim"
 alias nclean="nvim --clean"
 eval $(thefuck --alias)
 
 
-PATH="/home/ljl/perl5/bin${PATH:+:${PATH}}"; export PATH;
-PERL5LIB="/home/ljl/perl5/lib/perl5${PERL5LIB:+:${PERL5LIB}}"; export PERL5LIB;
-PERL_LOCAL_LIB_ROOT="/home/ljl/perl5${PERL_LOCAL_LIB_ROOT:+:${PERL_LOCAL_LIB_ROOT}}"; export PERL_LOCAL_LIB_ROOT;
-PERL_MB_OPT="--install_base \"/home/ljl/perl5\""; export PERL_MB_OPT;
-PERL_MM_OPT="INSTALL_BASE=/home/ljl/perl5"; export PERL_MM_OPT;
 
-# --------------
-# Path
-export LLVM_DIR=/home/ljl/Documents/ThirdParty/taichi-llvm-15
-# export PATH="/home/ljl/Documents/ThirdParty/clang10/bin:$PATH"
-
-# >>> xmake >>>
-[[ -s "$HOME/.xmake/profile" ]] && source "$HOME/.xmake/profile" # load xmake profile
-# <<< xmake <<<
-
-# 1 新建会话
+# tmux
 alias tnew="tmux new -s "
 alias tn="tmux new -s "
-# 2 分离会话(ctrl+b d)
 alias tdetach="tmux detach"
-# 3 列出会话(ctrl+b s)
 alias tlist="tmux ls"
 alias tls="tmux ls"
-# 4 接入会话
 alias tattach="tmux attach -t "
 alias ta="tmux attach -t "
-# 5 杀死指定会话
 alias tkill="tmux kill-session -t "
-# 6 杀死全部会话
 alias tkillall="tmux kill-server"
-# 7 切换会话
 alias tswitch="tmux switch -t "
-# 8 重命名会话(ctrl+b $)
 alias trename="tmux rename-session -t "
-# 9 窗口上下划分窗格
 alias tsplitud="tmux split-window"
-# 10 窗口左右划分窗格
 alias tsplitlr="tmux split-window -h"
-# 11 光标到上方窗格
 alias tmoveu="tmux select-pane -U"
-# 12 光标到下方窗格
 alias tmoved="tmux select-pane -D"
-# 13 光标到上方窗格
 alias tmovel="tmux select-pane -L"
-# 14 光标到上方窗格
 alias tmover="tmux select-pane -R"
-# 15 交换窗格位置(当前窗格上移)
 alias tswapu="tmux swap-pane -U"
-# 16 交换窗格位置(当前窗格下移)
 alias tswapd="tmux swap-pane -D"
 
 # FZF
@@ -101,26 +135,16 @@ export FZF_CTRL_T_OPTS="--preview '(highlight -O ansi -l {} 2> /dev/null || cat 
 source /usr/share/fzf/key-bindings.zsh
 source /usr/share/fzf/completion.zsh
 
-# DOOM emacs
-export PATH="$HOME/.emacs.d/bin:$PATH"
-alias em="emacsclient -c -a 'nvim'"
-
 # Texlive -tlmgr
 alias tlmgr='/usr/share/texmf-dist/scripts/texlive/tlmgr.pl --usermode'
-
-# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
-[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
-
-# Conda
-export PATH="/opt/anaconda/bin:$PATH"
 
 # tmuxinator
 export EDITOR="nvim"
 alias mux=tmuxinator
-# pseudo_run_tmuxfzf_widget() {
-#   source ~/tmuxinator-fzf-start.sh
-# }
-# zle -N pseudo_run_tmuxfzf_widget
-# stty start '^-' stop '^-'
-# bindkey '^S' pseudo_run_tmuxfzf_widget
 alias s='~/tmuxinator-fzf-start.sh'
+
+alias p='export http_proxy=socks5://127.0.0.1:1090 \
+export https_proxy=socks5://127.0.0.1:1090'
+# >>> xmake >>>
+test -f "/home/ljl/.xmake/profile" && source "/home/ljl/.xmake/profile"
+# <<< xmake <<<
