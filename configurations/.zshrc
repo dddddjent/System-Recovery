@@ -97,8 +97,6 @@ alias n="nvim"
 alias nclean="nvim --clean"
 eval $(thefuck --alias)
 
-
-
 # tmux
 alias tnew="tmux new -s "
 alias tn="tmux new -s "
@@ -145,6 +143,7 @@ alias s='~/tmuxinator-fzf-start.sh'
 
 alias p='export http_proxy=socks5://127.0.0.1:1090 \
 export https_proxy=socks5://127.0.0.1:1090'
+
 # >>> xmake >>>
 test -f "/home/ljl/.xmake/profile" && source "/home/ljl/.xmake/profile"
 # <<< xmake <<<

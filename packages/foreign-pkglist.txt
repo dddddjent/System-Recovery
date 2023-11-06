@@ -1,8 +1,11 @@
+baidunetdisk-bin
 deepin-wine-wechat
 dingtalk-bin
 electron-netease-cloud-music
+klassy
 linuxqq-appimage
 paru
+rar
 tmuxinator
 xdroid-bin
 yay

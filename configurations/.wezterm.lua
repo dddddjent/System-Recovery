@@ -50,7 +50,7 @@ return {
     -- font
     -- font = wezterm.font_with_fallback { 'MesloLGL Nerd Font Mono', 'DengXian', },
     -- font = wezterm.font_with_fallback { 'MesloLGL Nerd Font Mono', },
-    font         = wezterm.font_with_fallback { 'JetbrainsMono Nerd Font Mono', 'DengXian', },
+    font         = wezterm.font_with_fallback { 'JetBrainsMono Nerd Font Mono', 'DengXian', },
     line_height  = 1.11,
     font_size    = 17,
     -- font                      = wezterm.font_with_fallback { 'Comic Mono', {family="Symbols Nerd Font Mono",scale=0.6},},
