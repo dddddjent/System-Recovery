@@ -242,6 +242,8 @@ makepkg -si
 1. Global Theme: Aritim Dark
 2. Install Klassy in AUR
 3. Plasma Style for panel
+   - Aritim dark rounded blur
+   - Change the opacity in `/home/ljl/.local/share/plasma/desktoptheme/Aritim-Dark-Rounded-Blur-mine/`
 4. Colors
 5. Windows decoration: Klassy
    - ![klassy1](.pic/klassy1.png)
@@ -256,6 +258,8 @@ makepkg -si
    - Translucent, Center, Float, add a spacer(not flexible) at the left, 66, auto hide, application dash board
 2. Top:
    - 26, global menu, user switcher, network speed, system tray, digital clock
+
+For the panel at the laptop screen, use "windows go below/above" instead, otherwise the windows in the main monitor will stutter every time you go through that horizontal place.
 
 ### 2.5 Input method
 

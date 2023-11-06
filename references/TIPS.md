@@ -70,8 +70,18 @@ mkinitcpio -P //ArchLinux
      `https://github.com/dddddjent/SlimBarsFirefox`
 
 ## QEMU
+
 1. Install ubuntu
+
 ```bash
 qemu-img create -f qcow2 ubuntu.qcow2 20G
 qemu-system-x86_64 -boot d -cdrom "/home/ljl/Downloads/ubuntu-22.04.3-desktop-amd64.iso" -enable-kvm -smp 4 -device intel-hda -device hda-duplex  -device virtio-vga-gl  -net nic -net user,hostfwd=tcp::5555-:5555    -cpu host  -m 4096  -display sdl,gl=on -hda ubuntu.qcow2
 ```
+
+## Black/Blank screen too fast
+
+may be related to Xorg <br/>
+See <br/>
+https://www.reddit.com/r/pop_os/comments/eln8bp/screen_going_black_after_30_seconds/?utm_source=share&utm_medium=web2x&context=3 <br/>
+`xset dpms 1800 0 0` <br/>
+for help
