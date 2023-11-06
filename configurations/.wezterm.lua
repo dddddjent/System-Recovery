@@ -45,55 +45,59 @@ return {
     enable_tab_bar               = false,
 
     -- launch_menu
-    default_prog = { "zsh" },
-    launch_menu  = launch_menu,
+    default_prog                 = { "zsh" },
+    launch_menu                  = launch_menu,
+
     -- font
     -- font = wezterm.font_with_fallback { 'MesloLGL Nerd Font Mono', 'DengXian', },
-    -- font = wezterm.font_with_fallback { 'MesloLGL Nerd Font Mono', },
-    font         = wezterm.font_with_fallback { 'JetBrainsMono Nerd Font Mono', 'DengXian', },
-    line_height  = 1.11,
-    font_size    = 17,
-    -- font                      = wezterm.font_with_fallback { 'Comic Mono', {family="Symbols Nerd Font Mono",scale=0.6},},
-    -- font_size                 = 19.0,
-    -- line_height               = 1.3,
-    -- color_scheme              = 'Catppuccin Macchiato',
+    font                         = wezterm.font_with_fallback { 'JetBrainsMono Nerd Font Mono', 'DengXian', },
+    line_height                  = 1.11,
+    font_size                    = 17,
 
-    enable_kitty_graphics = true,
+    enable_kitty_graphics        = true,
 
-    colors = {
-        ansi = {
-            '#282c34',
-            '#e06c75',
-            '#8ccf7e',
-            '#e5c76b',
-            '#ef7e7e',
-            '#67b0e8',
-            '#6cbfbf',
-            '#dadada',
-        },
-        background = '#141b1e',
-        brights = {
-            '#b3b9b8',
-            '#e9969d',
-            '#addda3',
-            '#edd796',
-            '#f5abab',
-            '#93c7ef',
-            '#90cece',
-            '#f3f3f3',
-        },
-
-        cursor_bg = '#67b0e8',
-        cursor_fg = '#141b1e',
-        foreground = '#abb2bf',
-        selection_bg = '#67b0e8',
-        selection_fg = '#abb2bf',
+    -- Color Schemes
+    -- color_scheme                 = 'Catppuccin Mocha',
+    -- color_scheme                 = 'Oxocarbon Dark',
+    color_scheme                 = 'iTerm2 Smoooooth',
+    -- color_scheme                 = 'iTerm2 Default',
+    -- color_scheme                 = 'iTerm2 Dark Background',
+    colors                       = {
+        -- background = '#141b1e'
     },
+    -- colors                       = {
+    --     ansi = {
+    --         '#282c34',
+    --         '#e06c75',
+    --         '#8ccf7e',
+    --         '#e5c76b',
+    --         '#ef7e7e',
+    --         '#67b0e8',
+    --         '#6cbfbf',
+    --         '#dadada',
+    --     },
+    --     background = '#141b1e',
+    --     brights = {
+    --         '#b3b9b8',
+    --         '#e9969d',
+    --         '#addda3',
+    --         '#edd796',
+    --         '#f5abab',
+    --         '#93c7ef',
+    --         '#90cece',
+    --         '#f3f3f3',
+    --     },
+    --
+    --     cursor_bg = '#67b0e8',
+    --     cursor_fg = '#141b1e',
+    --     foreground = '#abb2bf',
+    --     selection_bg = '#67b0e8',
+    --     selection_fg = '#abb2bf',
+    -- },
+    window_background_opacity    = 0.82,
 
-
-    window_background_opacity = 0.82,
     -- key_mapps
-    keys                      = {
+    keys                         = {
         { key = 'z', mods = 'ALT', action = wezterm.action.ShowLauncher },
         {
             key = 'F11',
@@ -112,5 +116,5 @@ return {
         --         action="QuickSelect",
         --     }
     },
-    debug_key_events          = true,
+    debug_key_events             = true,
 }
