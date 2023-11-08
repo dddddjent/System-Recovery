@@ -81,7 +81,13 @@ qemu-system-x86_64 -boot d -cdrom "/home/ljl/Downloads/ubuntu-22.04.3-desktop-am
 ## Black/Blank screen too fast
 
 may be related to Xorg <br/>
-See <br/>
-https://www.reddit.com/r/pop_os/comments/eln8bp/screen_going_black_after_30_seconds/?utm_source=share&utm_medium=web2x&context=3 <br/>
-`xset dpms 1800 0 0` <br/>
-for help
+See https://wiki.archlinux.org/title/Display_Power_Management_Signaling<br/>
+
+- `xset dpms 0 0 0`: blank suspend poweroff (second)
+- `xset -dpms`: stop dpms power manage ment
+- `xset q`: check config
+- `xset s off`: disable screen saver
+- `xset s 3600 3600`: blank cycle (second)
+
+## Count lines
+`find . -type f -name '*.rs' -exec wc -l {} +`

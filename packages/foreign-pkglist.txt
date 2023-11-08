@@ -1,4 +1,5 @@
 baidunetdisk-bin
+codelldb
 deepin-wine-wechat
 dingtalk-bin
 electron-netease-cloud-music
@@ -7,5 +8,6 @@ linuxqq-appimage
 paru
 rar
 tmuxinator
+visual-studio-code-bin
 xdroid-bin
 yay

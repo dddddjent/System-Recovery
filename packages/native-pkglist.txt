@@ -1,4 +1,5 @@
 a52dec
+aalib
 accounts-qml-module
 accountsservice
 acl
@@ -103,6 +104,7 @@ discover
 djvulibre
 dkms
 dmidecode
+dnsmasq
 dnssec-anchors
 docker
 dolphin
@@ -207,8 +209,10 @@ gssdp
 gst-plugins-bad-libs
 gst-plugins-base
 gst-plugins-base-libs
+gst-plugins-good
 gstreamer
 gtk-update-icon-cache
+gtk-vnc
 gtk2
 gtk3
 gtkmm3
@@ -234,6 +238,7 @@ iana-etc
 icu
 ijs
 imath
+imlib2
 iniparser
 inkscape
 iproute2
@@ -276,7 +281,8 @@ kdelibs4support
 kdeplasma-addons
 kdesu5
 kdnssd5
-kdsoap
+kdsoap-qt5
+kdsoap-qt6
 kdsoap-ws-discovery-client
 kemoticons
 kernel-headers-musl
@@ -472,12 +478,17 @@ libatasmart
 libatomic_ops
 libavc1394
 libavif
+libb2
 libblockdev
 libbluray
 libbpf
 libbs2b
 libbsd
+libburn
 libbytesize
+libc++
+libc++abi
+libcaca
 libcacard
 libcamera
 libcamera-ipa
@@ -501,6 +512,7 @@ libdeflate
 libdmtx
 libdovi
 libdrm
+libdv
 libdvbpsi
 libe-book
 libebml
@@ -518,6 +530,7 @@ libffi
 libfontenc
 libfreehand
 libgcrypt
+libgdiplus
 libgee
 libgirepository
 libglvnd
@@ -539,6 +552,8 @@ libinih
 libinput
 libiscsi
 libisl
+libisoburn
+libisofs
 libixion
 libjpeg-turbo
 libjpeg6-turbo
@@ -588,6 +603,7 @@ libogg
 libomxil-bellagio
 libopenmpt
 liborcus
+libosinfo
 libp11-kit
 libpagemaker
 libpaper
@@ -617,6 +633,7 @@ libsamplerate
 libsasl
 libseccomp
 libsecret
+libshout
 libsigc++
 libslirp
 libsm
@@ -657,6 +674,8 @@ libva
 libvdpau
 libverto
 libvirt
+libvirt-glib
+libvirt-python
 libvisio
 libvorbis
 libvpx
@@ -691,6 +710,7 @@ libxklavier
 libxml2
 libxmlb
 libxmu
+libxnvctrl
 libxpm
 libxrandr
 libxrender
@@ -714,6 +734,7 @@ linux-firmware-whence
 linux-headers
 linux-zen
 linux-zen-headers
+lldb
 llvm-libs
 lm_sensors
 lmdb
@@ -745,6 +766,7 @@ mkinitcpio-busybox
 mobile-broadband-provider-info
 modemmanager
 modemmanager-qt5
+mono
 mpfr
 mpg123
 mtdev
@@ -759,6 +781,7 @@ neon
 nettle
 networkmanager
 networkmanager-qt5
+nftables
 nilfs-utils
 ninja
 node-gyp
@@ -773,6 +796,7 @@ nss
 ntfs-3g
 numactl
 nvidia-dkms
+nvidia-settings
 nvidia-utils
 nvtop
 ocl-icd
@@ -790,6 +814,7 @@ openssl
 opus
 orc
 os-prober
+osinfo-db
 ostree
 oxygen
 oxygen-sounds
@@ -814,6 +839,7 @@ perl-error
 perl-libintl-perl
 perl-mailtools
 perl-timedate
+phodav
 phonon-qt5
 phonon-qt5-gstreamer
 pinentry
@@ -1019,11 +1045,14 @@ qt5-webchannel
 qt5-webengine
 qt5-webview
 qt5-x11extras
+qt6-base
+qt6-translations
 ragel
 raptor
 rasqal
 rav1e
 readline
+reaper
 redland
 reiserfsprogs
 rhash
@@ -1112,6 +1141,7 @@ spectacle
 speex
 speexdsp
 spice
+spice-gtk
 spice-protocol
 spirv-tools
 sqlite
@@ -1149,6 +1179,7 @@ ttf-hack
 ttf-jetbrains-mono
 ttf-liberation
 ttf-roboto
+twolame
 tzdata
 udisks2
 unzip
@@ -1164,6 +1195,8 @@ vid.stab
 vim
 vim-runtime
 virglrenderer
+virt-install
+virt-manager
 virtiofsd
 vkd3d
 vlc
@@ -1171,8 +1204,10 @@ vmaf
 volume_key
 vte-common
 vte3
+vulkan-headers
 vulkan-icd-loader
 vulkan-tools
+wavpack
 wayland
 wayland-protocols
 wayland-utils
@@ -1279,6 +1314,7 @@ zip
 zlib
 zsh
 zsh-autosuggestions
+zsh-completions
 zsh-syntax-highlighting
 zstd
 zxing-cpp

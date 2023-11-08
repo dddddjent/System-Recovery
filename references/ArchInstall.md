@@ -141,6 +141,7 @@ These files are all under /etc
   - `vim /etc/pacman.conf` add multilib, add color
   - `vim /etc/pacman.d/mirrorlist` move the source you want to the start
   - `Syyu`
+  - `ntfs-3g`: to mount ntfs filesystems
 
 ## 2. Configure the System Basics
 
@@ -236,6 +237,7 @@ makepkg -si
    - Invert scroll
 7. Power Management
    - Disable Energy Saving
+   - It seems like you have to do it yourself (see xset)
 
 #### 2.4.2 Appearance
 

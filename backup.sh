@@ -1,4 +1,4 @@
 #!/bin/bash
 
 ./take_in.sh
-./packages/yay-backup.sh
+./packages/paru-backup.sh

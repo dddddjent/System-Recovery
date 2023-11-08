@@ -94,7 +94,7 @@ return {
     --     selection_bg = '#67b0e8',
     --     selection_fg = '#abb2bf',
     -- },
-    window_background_opacity    = 0.82,
+    -- window_background_opacity    = 0.82,
 
     -- key_mapps
     keys                         = {
