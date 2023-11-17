@@ -143,10 +143,20 @@ alias tlmgr='/usr/share/texmf-dist/scripts/texlive/tlmgr.pl --usermode'
 # tmuxinator
 export EDITOR="nvim"
 alias mux=tmuxinator
-alias s='~/tmuxinator-fzf-start.sh'
+#alias s = "mux s $(tmuxinator list -n | tail -n +2 | fzf --prompt='Project: ' -m -1 -q '$1')"
+s() {
+  local selected_project
+  selected_project=$(tmuxinator list -n | tail -n +2 | fzf --prompt='Project: ' -m -1 -q "$1")
+  if [ -n "$selected_project" ]; then
+    mux s "$selected_project"
+  fi
+}
+# setopt noflowcontrol
 
 alias p='export http_proxy=socks5://127.0.0.1:1090 \
 export https_proxy=socks5://127.0.0.1:1090'
+alias p_unset='unset http_proxy \
+unset https_proxy'
 
 # >>> xmake >>>
 test -f "/home/ljl/.xmake/profile" && source "/home/ljl/.xmake/profile"

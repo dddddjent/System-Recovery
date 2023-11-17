@@ -1,5 +1,6 @@
 a52dec
 aalib
+abseil-cpp
 accounts-qml-module
 accountsservice
 acl
@@ -13,6 +14,8 @@ alsa-plugins
 alsa-topology-conf
 alsa-ucm-conf
 alsa-utils
+android-tools
+android-udev
 aom
 appmenu-gtk-module
 appstream
@@ -22,6 +25,7 @@ archlinux-keyring
 argon2
 aribb24
 ark
+asio
 at-spi2-core
 atkmm
 attica5
@@ -39,12 +43,14 @@ bash
 binutils
 bison
 blas
+blosc
 bluedevil
 bluez
 bluez-libs
 bluez-qt5
 bluez-utils
 bolt
+boost
 boost-libs
 box2d
 breeze
@@ -83,6 +89,7 @@ cpio
 cppdap
 cronie
 cryptsetup
+cuda
 curl
 dav1d
 db
@@ -99,6 +106,7 @@ desktop-file-utils
 device-mapper
 dhcpcd
 diffutils
+discord
 discount
 discover
 djvulibre
@@ -123,6 +131,7 @@ efibootmgr
 efivar
 egl-wayland
 eglexternalplatform
+eigen
 electron
 electron25
 enchant
@@ -165,6 +174,8 @@ gawk
 gc
 gcc
 gcc-libs
+gcc12
+gcc12-libs
 gd
 gdb
 gdb-common
@@ -172,13 +183,16 @@ gdbm
 gdk-pixbuf2
 geoclue
 gettext
+gflags
 ghostscript
 giflib
 git
+git-lfs
 glib-networking
 glib2
 glibc
 glibmm
+glibmm-2.68
 glslang
 glu
 glusterfs
@@ -211,6 +225,7 @@ gst-plugins-base
 gst-plugins-base-libs
 gst-plugins-good
 gstreamer
+gtest
 gtk-update-icon-cache
 gtk-vnc
 gtk2
@@ -224,6 +239,7 @@ gwenview
 gzip
 harfbuzz
 harfbuzz-icu
+helix
 hicolor-icon-theme
 hidapi
 highway
@@ -246,10 +262,15 @@ iptables
 iputils
 iso-codes
 jack2
+jadx
 jansson
 jasper
+java-environment-common
+java-runtime-common
 jbig2dec
 jbigkit
+jdk-openjdk
+jemalloc
 jfsutils
 json-c
 json-glib
@@ -345,6 +366,7 @@ lcms2
 ldb
 ldns
 less
+leveldb
 lib2geom
 lib32-acl
 lib32-alsa-lib
@@ -509,6 +531,7 @@ libdca
 libde265
 libdecor
 libdeflate
+libdispatch
 libdmtx
 libdovi
 libdrm
@@ -575,6 +598,7 @@ libmbim
 libmd
 libmfx
 libmm-glib
+libmng
 libmnl
 libmodplug
 libmpc
@@ -585,6 +609,7 @@ libmtp
 libmwaw
 libnbd
 libndp
+libnet
 libnetfilter_conntrack
 libnewt
 libnfnetlink
@@ -635,6 +660,7 @@ libseccomp
 libsecret
 libshout
 libsigc++
+libsigc++-3.0
 libslirp
 libsm
 libsndfile
@@ -730,6 +756,7 @@ licenses
 linux
 linux-api-headers
 linux-firmware
+linux-firmware-qlogic
 linux-firmware-whence
 linux-headers
 linux-zen
@@ -754,6 +781,7 @@ mailcap
 make
 man-db
 marisa
+mbedtls
 md4c
 mdadm
 media-player-info
@@ -799,11 +827,13 @@ nvidia-dkms
 nvidia-settings
 nvidia-utils
 nvtop
+obs-studio
 ocl-icd
 okular
 onevpl
 openal
 opencc
+opencl-nvidia
 opencore-amr
 openexr
 openjpeg2
@@ -830,6 +860,7 @@ pango
 pangomm
 parted
 patch
+patchelf
 pciutils
 pcre
 pcre2
@@ -879,6 +910,7 @@ powerdevil
 ppp
 prison5
 procps-ng
+protobuf
 psmisc
 pulseaudio
 purpose5
@@ -1046,16 +1078,23 @@ qt5-webengine
 qt5-webview
 qt5-x11extras
 qt6-base
+qt6-declarative
+qt6-imageformats
+qt6-svg
 qt6-translations
+qt6-wayland
 ragel
+rapidjson
 raptor
 rasqal
 rav1e
+re2
 readline
 reaper
 redland
 reiserfsprogs
 rhash
+rnnoise
 rpcbind
 rsync
 rtkit
@@ -1164,6 +1203,7 @@ taglib
 talloc
 tar
 tdb
+telegram-desktop
 tevent
 texinfo
 thefuck
@@ -1178,6 +1218,7 @@ ttf-dejavu
 ttf-hack
 ttf-jetbrains-mono
 ttf-liberation
+ttf-opensans
 ttf-roboto
 twolame
 tzdata
