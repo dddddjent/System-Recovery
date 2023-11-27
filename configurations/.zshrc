@@ -99,6 +99,7 @@ bindkey ',' autosuggest-accept
 alias l="lvim"
 alias n="nvim"
 alias nclean="nvim --clean"
+alias lla="ll -a"
 eval $(thefuck --alias)
 
 # tmux
@@ -161,3 +162,8 @@ unset https_proxy'
 # >>> xmake >>>
 test -f "/home/ljl/.xmake/profile" && source "/home/ljl/.xmake/profile"
 # <<< xmake <<<
+if [ -n "$PYTHONPATH" ]; then
+    export PYTHONPATH='/usr/lib/python3.11/site-packages/pdm/pep582':$PYTHONPATH
+else
+    export PYTHONPATH='/usr/lib/python3.11/site-packages/pdm/pep582'
+fi

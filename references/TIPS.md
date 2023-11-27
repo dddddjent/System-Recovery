@@ -91,3 +91,6 @@ See https://wiki.archlinux.org/title/Display_Power_Management_Signaling<br/>
 
 ## Count lines
 `find . -type f -name '*.rs' -exec wc -l {} +`
+
+## Pacman
+- Clean orphans: `sudo pacman -Rns $(pacman -Qdtq)`
