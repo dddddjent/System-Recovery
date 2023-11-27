@@ -19,13 +19,14 @@ android-udev
 aom
 appmenu-gtk-module
 appstream
-appstream-qt
+appstream-qt5
 archlinux-appstream-data
 archlinux-keyring
 argon2
 aribb24
 ark
 asio
+aspnet-runtime
 at-spi2-core
 atkmm
 attica5
@@ -35,6 +36,7 @@ augeas
 autoconf
 automake
 avahi
+ayatana-ido
 baloo-widgets
 baloo5
 base
@@ -90,6 +92,8 @@ cppdap
 cronie
 cryptsetup
 cuda
+cups
+cups-filters
 curl
 dav1d
 db
@@ -117,6 +121,8 @@ dnssec-anchors
 docker
 dolphin
 dosfstools
+dotnet-host
+dotnet-runtime
 double-conversion
 drkonqi
 dtc
@@ -164,6 +170,7 @@ fmt
 fontconfig
 frameworkintegration5
 freeglut
+freerdp
 freetype2
 fribidi
 fuse-common
@@ -224,6 +231,7 @@ gst-plugins-bad-libs
 gst-plugins-base
 gst-plugins-base-libs
 gst-plugins-good
+gst-plugins-ugly
 gstreamer
 gtest
 gtk-update-icon-cache
@@ -309,6 +317,7 @@ kemoticons
 kernel-headers-musl
 keyutils
 kfilemetadata5
+kfind
 kgamma5
 kglobalaccel5
 kguiaddons5
@@ -500,6 +509,8 @@ libatasmart
 libatomic_ops
 libavc1394
 libavif
+libayatana-appindicator
+libayatana-indicator
 libb2
 libblockdev
 libbluray
@@ -517,11 +528,13 @@ libcamera-ipa
 libcanberra
 libcap
 libcap-ng
+libcdio
 libcdr
 libcloudproviders
 libcolord
 libconfig
 libcups
+libcupsfilters
 libdaemon
 libdatrie
 libdbusmenu-glib
@@ -537,6 +550,7 @@ libdovi
 libdrm
 libdv
 libdvbpsi
+libdvdread
 libe-book
 libebml
 libedit
@@ -581,7 +595,7 @@ libixion
 libjpeg-turbo
 libjpeg6-turbo
 libjxl
-libkdcraw
+libkdcraw5
 libkexiv2
 libksba
 libkscreen
@@ -640,6 +654,7 @@ libpipewire
 libplacebo
 libplist
 libpng
+libppd
 libproxy
 libpsl
 libpulse
@@ -651,7 +666,6 @@ libqxp
 libraqm
 libraw
 libraw1394
-libreoffice-fresh
 librevenge
 librsvg
 libsamplerate
@@ -687,6 +701,7 @@ libtool
 libtraceevent
 libtracefs
 libudev0-shim
+libunibreak
 libunistring
 libunwind
 libupnp
@@ -841,6 +856,7 @@ openmpi
 openpmix
 openssh
 openssl
+openssl-1.1
 opus
 orc
 os-prober
@@ -1058,6 +1074,7 @@ qemu-ui-spice-app
 qemu-ui-spice-core
 qemu-user
 qemu-vhost-user-gpu
+qpdf
 qqc2-desktop-style5
 qrencode
 qt5-base
@@ -1093,6 +1110,7 @@ readline
 reaper
 redland
 reiserfsprogs
+remmina
 rhash
 rnnoise
 rpcbind
@@ -1152,6 +1170,7 @@ run-parts
 runc
 rust
 scour
+scrcpy
 sddm
 sddm-kcm
 sdl2
@@ -1214,6 +1233,7 @@ tmux
 tpm2-tss
 tracker3
 tslib
+ttf-carlito
 ttf-dejavu
 ttf-hack
 ttf-jetbrains-mono
