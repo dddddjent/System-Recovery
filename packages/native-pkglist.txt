@@ -861,6 +861,7 @@ python-colorama
 python-coverage
 python-cryptography
 python-cssselect
+python-debugpy
 python-decorator
 python-distlib
 python-distro

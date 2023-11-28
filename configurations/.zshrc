@@ -167,3 +167,4 @@ if [ -n "$PYTHONPATH" ]; then
 else
     export PYTHONPATH='/usr/lib/python3.11/site-packages/pdm/pep582'
 fi
+alias vactivate='$(pdm venv activate)'
