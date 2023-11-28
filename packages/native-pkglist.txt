@@ -140,6 +140,7 @@ fd
 ffmpeg
 fftw
 file
+filelight
 filesystem
 findutils
 firefox
@@ -147,6 +148,7 @@ flac
 flatpak
 flatpak-kcm
 flex
+fltk
 fmt
 fontconfig
 frameworkintegration5
@@ -898,7 +900,6 @@ python-pdm
 python-pdm-backend
 python-pillow
 python-pip
-python-pipenv
 python-platformdirs
 python-ply
 python-psutil
@@ -934,7 +935,6 @@ python-unearth
 python-urllib3
 python-validate-pyproject
 python-virtualenv
-python-virtualenv-clone
 python-wcwidth
 python-webencodings
 python-wheel
