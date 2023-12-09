@@ -1,5 +1,6 @@
 android-sdk-platform-tools
 baidunetdisk-bin
+bun-bin
 codelldb
 deepin-wine-wechat
 dingtalk-bin
@@ -18,7 +19,6 @@ tmuxinator
 ttf-ms-fonts
 ttf-wps-fonts
 visual-studio-code-bin
-watt-toolkit-bin
 wemeet-bin
 wps-office-cn
 wps-office-fonts

@@ -168,3 +168,11 @@ else
     export PYTHONPATH='/usr/lib/python3.11/site-packages/pdm/pep582'
 fi
 alias vactivate='$(pdm venv activate)'
+
+# pnpm
+export PNPM_HOME="/home/ljl/.local/share/pnpm"
+case ":$PATH:" in
+  *":$PNPM_HOME:"*) ;;
+  *) export PATH="$PNPM_HOME:$PATH" ;;
+esac
+# pnpm end

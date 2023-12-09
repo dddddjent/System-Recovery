@@ -33,6 +33,8 @@
 	directory = /home/ljl/other_disks/d/study/SummerSession/DS/4
 	directory = /home/ljl/other_disks/d/study/SummerSession/DS/project
 	directory = /home/ljl/other_disks/d/study/UPUP/CV/template/template-full
+	directory = /home/ljl/other_disks/d/study/毕设/examples/Seeing-Motion-in-the-Dark-pytorch
+	directory = /home/ljl/other_disks/d/study/Graduate_project/examples/Seeing-Motion-in-the-Dark-pytorch
 [http]
 	proxy = socks5://127.0.0.1:1090
 [https]

@@ -2,6 +2,8 @@ set backspace=indent,eol,start "退格键设置"
 set clipboard=unnamed   "默认的剪切寄存器"
 set ignorecase  "忽略大小写"
 set relativenumber
+colorscheme sorbet
+syntax on
 set nu
         :vnoremap ci :s/^/\/\/<cr>
         :vnoremap cu :s/\/\//<cr>
