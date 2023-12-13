@@ -34,6 +34,7 @@ if wezterm.target_triple == "x86_64-pc-windows-msvc" then
 end
 
 return {
+    use_ime = true,
     -- Appearance
     window_padding               = {
         left = '0.3cell', -- cell means the line_height

@@ -176,3 +176,5 @@ case ":$PATH:" in
   *) export PATH="$PNPM_HOME:$PATH" ;;
 esac
 # pnpm end
+
+alias clean-orphans="sudo pacman -Rns $(pacman -Qdtq)"

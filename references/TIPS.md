@@ -90,7 +90,15 @@ See https://wiki.archlinux.org/title/Display_Power_Management_Signaling<br/>
 - `xset s 3600 3600`: blank cycle (second)
 
 ## Count lines
+
 `find . -type f -name '*.rs' -exec wc -l {} +`
 
 ## Pacman
+
 - Clean orphans: `sudo pacman -Rns $(pacman -Qdtq)`
+
+## Xdroid
+
+The app data is inside the `.zhuoyi/[some container folder]/`
+
+- There should be a lot of folders for all the apps u have installed
