@@ -39,6 +39,7 @@ baloo5
 base
 base-devel
 bash
+bat
 binutils
 bison
 blas
@@ -132,6 +133,7 @@ electron25
 enchant
 exiv2
 expat
+faad2
 fakeroot
 fcitx5
 fcitx5-chinese-addons
@@ -141,6 +143,7 @@ fcitx5-material-color
 fcitx5-qt
 fd
 ffmpeg
+ffmpeg4.4
 fftw
 file
 filelight
@@ -152,7 +155,6 @@ flac
 flatpak
 flatpak-kcm
 flex
-fmt
 fontconfig
 frameworkintegration5
 freeglut
@@ -223,6 +225,7 @@ gtk-update-icon-cache
 gtk-vnc
 gtk2
 gtk3
+gtk4
 gtkmm3
 gtksourceview4
 guile
@@ -237,6 +240,7 @@ hicolor-icon-theme
 hidapi
 highway
 htop
+http-parser
 hunspell
 hwdata
 hwloc
@@ -481,6 +485,7 @@ lib32-zlib
 lib32-zstd
 libaccounts-glib
 libaccounts-qt
+libadwaita
 libaio
 libarchive
 libass
@@ -517,6 +522,7 @@ libdatrie
 libdbusmenu-glib
 libdbusmenu-gtk3
 libdbusmenu-qt5
+libdca
 libde265
 libdecor
 libdeflate
@@ -525,7 +531,9 @@ libdmtx
 libdovi
 libdrm
 libdv
+libdvbpsi
 libdvdread
+libebml
 libedit
 libelf
 libepoxy
@@ -539,6 +547,7 @@ libgcrypt
 libgdiplus
 libgee
 libgirepository
+libgit2
 libglvnd
 libgnomekbd
 libgpg-error
@@ -569,15 +578,19 @@ libkscreen
 libksysguard
 libldap
 liblouis
+libmad
 libmalcontent
 libmanette
+libmatroska
 libmbim
 libmd
+libmfx
 libmm-glib
 libmng
 libmnl
 libmodplug
 libmpc
+libmpcdec
 libmpeg2
 libmspack
 libmtp
@@ -644,6 +657,7 @@ libssh2
 libstemmer
 libsynctex
 libsysprof-capture
+libtar
 libtasn1
 libteam
 libthai
@@ -658,6 +672,7 @@ libudev0-shim
 libunibreak
 libunistring
 libunwind
+libupnp
 liburcu
 liburing
 libusb
@@ -676,9 +691,7 @@ libvpx
 libwacom
 libwbclient
 libwebp
-libwpd
 libwpe
-libwpg
 libx11
 libxau
 libxaw
@@ -734,6 +747,7 @@ lm_sensors
 lmdb
 lsb-release
 lsof
+lua
 lutris
 lvm2
 lz4
@@ -799,7 +813,6 @@ openmpi
 openpmix
 openssh
 openssl
-openssl-1.1
 opus
 orc
 os-prober
@@ -818,7 +831,6 @@ pango
 pangomm
 parted
 patch
-patchelf
 pciutils
 pcre
 pcre2
@@ -1231,6 +1243,7 @@ virt-install
 virt-manager
 virtiofsd
 vkd3d
+vlc
 vmaf
 volume_key
 vte-common

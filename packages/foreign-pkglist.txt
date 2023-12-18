@@ -19,7 +19,6 @@ ttf-ms-fonts
 ttf-wps-fonts
 visual-studio-code-bin
 wemeet-bin
-wps-office-cn
 wps-office-fonts
 xdroid-bin
 yay
