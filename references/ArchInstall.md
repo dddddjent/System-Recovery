@@ -309,8 +309,10 @@ Follow my readme is completely enough
 ### 3.2 Dingtalk/Wechat/QQ
 
 1.  Dingtalk: dingtalk-bin, 自带缩放
-2.  Wechat: deepin-wine-wechat
-    - `env WINEPREFIX="$HOME/.deepinwine/Deepin-WeChat" /usr/bin/deepin-wine6-stable winecfg`
+2.  Wechat: [archlinuxcn]wine-wechat-setup, wine-for-wechat(remove background's frame)
+    - archlinuxcn: `https://www.archlinuxcn.org/archlinux-cn-repo-and-mirror/`
+      - `sudo pacman-key --lsign-key "farseerfc@archlinux.org"`
+      - `paru -Sa` to force install from AUR
     - dpi 120
 3.  QQ: linuxqq-appimage
     - Change the font size in settings

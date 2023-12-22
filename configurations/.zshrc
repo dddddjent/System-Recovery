@@ -178,3 +178,4 @@ esac
 # pnpm end
 
 alias clean-orphans="sudo pacman -Rns $(pacman -Qdtq)"
+source /usr/share/nvm/init-nvm.sh
