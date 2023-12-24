@@ -314,6 +314,8 @@ Follow my readme is completely enough
       - `sudo pacman-key --lsign-key "farseerfc@archlinux.org"`
       - `paru -Sa` to force install from AUR
     - dpi 120
+    - It seems like you have to set `/etc/systemd/system.conf`: `DefaultDeviceTimeoutSec` to a smaller value to reboot/shutdown normally
+      - **HOPE THIS WILL NOT HURT**
 3.  QQ: linuxqq-appimage
     - Change the font size in settings
 

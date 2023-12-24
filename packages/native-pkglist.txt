@@ -700,6 +700,7 @@ llvm-libs
 lm_sensors
 lmdb
 lsb-release
+lsd
 lsof
 lua
 lutris
@@ -1180,7 +1181,9 @@ ttf-carlito
 ttf-dejavu
 ttf-hack
 ttf-jetbrains-mono
+ttf-jetbrains-mono-nerd
 ttf-liberation
+ttf-meslo-nerd
 ttf-opensans
 ttf-roboto
 twolame

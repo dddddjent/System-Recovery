@@ -34,7 +34,7 @@ if wezterm.target_triple == "x86_64-pc-windows-msvc" then
 end
 
 return {
-    use_ime = true,
+    use_ime                      = true,
     -- Appearance
     window_padding               = {
         left = '0.3cell', -- cell means the line_height
@@ -51,7 +51,9 @@ return {
 
     -- font
     -- font = wezterm.font_with_fallback { 'MesloLGL Nerd Font Mono', 'DengXian', },
-    font                         = wezterm.font_with_fallback { 'JetBrainsMono Nerd Font Mono', 'DengXian', },
+    -- font                         = wezterm.font_with_fallback { 'JetBrainsMono Nerd Font Mono', 'Noto Color Emoji', 'DengXian', },
+    font                         = wezterm.font_with_fallback { 'JetBrainsMono Nerd Font Mono', 'Twemoji Mozilla', 'DengXian', },
+    --     'DengXian', },
     line_height                  = 1.11,
     font_size                    = 17,
 

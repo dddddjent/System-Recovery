@@ -90,6 +90,7 @@ source $ZSH/oh-my-zsh.sh
 
 # -------------------------------------------
 # User configuration
+setopt COMBINING_CHARS
 
 # zsh
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
@@ -99,7 +100,9 @@ bindkey ',' autosuggest-accept
 alias l="lvim"
 alias n="nvim"
 alias nclean="nvim --clean"
-alias lla="ll -a"
+alias ls="lsd"
+alias ll="lsd -l"
+alias lla="lsd -al"
 eval $(thefuck --alias)
 
 # tmux
@@ -177,5 +180,4 @@ case ":$PATH:" in
 esac
 # pnpm end
 
-alias clean-orphans="sudo pacman -Rns $(pacman -Qdtq)"
 source /usr/share/nvm/init-nvm.sh
