@@ -51,9 +51,8 @@ return {
 
     -- font
     -- font = wezterm.font_with_fallback { 'MesloLGL Nerd Font Mono', 'DengXian', },
-    -- font                         = wezterm.font_with_fallback { 'JetBrainsMono Nerd Font Mono', 'Noto Color Emoji', 'DengXian', },
     font                         = wezterm.font_with_fallback { 'JetBrainsMono Nerd Font Mono', 'Twemoji Mozilla', 'DengXian', },
-    --     'DengXian', },
+    -- font                         = wezterm.font_with_fallback { 'JetBrainsMono Nerd Font', 'Twemoji Mozilla', 'DengXian', },
     line_height                  = 1.11,
     font_size                    = 17,
 

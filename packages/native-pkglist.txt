@@ -97,6 +97,8 @@ dav1d
 db
 db5.3
 dbus
+dbus-broker
+dbus-broker-units
 dbus-python
 dconf
 ddcutil
@@ -133,6 +135,8 @@ eigen
 electron
 electron-netease-cloud-music
 electron25
+electron27
+electron28
 enchant
 exiv2
 expat
@@ -639,6 +643,7 @@ libvirt-glib
 libvirt-python
 libvisio
 libvorbis
+libvpl
 libvpx
 libwacom
 libwbclient
@@ -757,10 +762,10 @@ nvtop
 obs-studio
 ocl-icd
 okular
-onevpl
 oniguruma
 onlyoffice-bin
 openal
+openbsd-netcat
 opencc
 opencl-nvidia
 opencore-amr
@@ -805,6 +810,7 @@ pipewire
 pipewire-media-session
 pixman
 pkgconf
+pkgfile
 plasma-browser-integration
 plasma-desktop
 plasma-disks
@@ -865,6 +871,7 @@ python-cryptography
 python-cssselect
 python-debugpy
 python-decorator
+python-dep-logic
 python-distlib
 python-distro
 python-dotenv
@@ -929,6 +936,7 @@ python-tomli-w
 python-tomlkit
 python-toolz
 python-trove-classifiers
+python-truststore
 python-typing_extensions
 python-uc-micro-py
 python-unearth
@@ -1051,6 +1059,7 @@ ragel
 rapidjson
 rar
 rav1e
+re2
 readline
 reaper
 remmina

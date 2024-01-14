@@ -102,3 +102,10 @@ See https://wiki.archlinux.org/title/Display_Power_Management_Signaling<br/>
 The app data is inside the `.zhuoyi/[some container folder]/`
 
 - There should be a lot of folders for all the apps u have installed
+
+## SSH over proxy
+
+Suppose u have a socks5 proxy at port 1080
+
+- `ssh -o ProxyCommand='nc -X 5 -x 127.0.0.1:1080 %h %p' ljl@10.13.88.147 -p 30903`
+- `nc` is installed from pacman, `openbsd-netcat`

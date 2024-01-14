@@ -1,5 +1,6 @@
 baidunetdisk-bin
 codelldb
+debtap
 dingtalk-bin
 jadx-gui-desktop
 jetbrains-toolbox
