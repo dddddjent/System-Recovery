@@ -8,6 +8,7 @@ libtiff5
 linuxqq-appimage
 protoc-gen-grpc-web
 protoc-gen-js-bin
+protonhax
 ttf-ms-fonts
 ttf-wps-fonts
 visual-studio-code-bin

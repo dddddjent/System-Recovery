@@ -316,6 +316,8 @@ Follow my readme is completely enough
     - dpi 120
     - It seems like you have to set `/etc/systemd/system.conf`: `DefaultDeviceTimeoutSec` to a smaller value to reboot/shutdown normally
       - **HOPE THIS WILL NOT HURT**
+    - Change the desktop entry: add wine prefix for the wechat exe
+      - Should be under ~/.local/lib/wine-wechat/default/
 3.  QQ: linuxqq-appimage
     - Change the font size in settings
 

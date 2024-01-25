@@ -118,6 +118,7 @@ dnssec-anchors
 docker
 dolphin
 double-conversion
+downgrade
 drkonqi
 dtc
 duktape
@@ -289,7 +290,7 @@ kbd
 kbookmarks5
 kcmutils5
 kcodecs5
-kcolorpicker
+kcolorpicker-qt5
 kcompletion5
 kconfig5
 kconfigwidgets5
@@ -318,7 +319,7 @@ khotkeys
 ki18n5
 kiconthemes5
 kidletime5
-kimageannotator
+kimageannotator-qt5
 kinfocenter
 kio-extras
 kio-fuse
@@ -560,6 +561,8 @@ libnfnetlink
 libnfs
 libnftnl
 libnghttp2
+libnghttp3
+libngtcp2
 libnice
 libnl
 libnm
@@ -662,6 +665,7 @@ libxcursor
 libxcvt
 libxdamage
 libxdmcp
+libxdp
 libxext
 libxfixes
 libxfont2
@@ -704,6 +708,7 @@ llvm
 llvm-libs
 lm_sensors
 lmdb
+lolcat
 lsb-release
 lsd
 lsof
@@ -785,6 +790,7 @@ oxygen-sounds
 p11-kit
 p7zip
 pacman
+pacman-contrib
 pacman-mirrorlist
 pahole
 pam
@@ -1101,10 +1107,13 @@ ruby-ipaddr
 ruby-irb
 ruby-json
 ruby-logger
+ruby-manpages
 ruby-minitest
 ruby-mutex_m
 ruby-net-http
 ruby-open-uri
+ruby-optimist
+ruby-paint
 ruby-power_assert
 ruby-psych
 ruby-racc
@@ -1173,6 +1182,7 @@ systemsettings
 taglib
 talloc
 tar
+tcc
 tdb
 telegram-desktop
 tevent
@@ -1227,6 +1237,7 @@ wayland
 wayland-utils
 webkit2gtk-4.1
 webrtc-audio-processing
+webrtc-audio-processing-1
 wezterm
 wezterm-shell-integration
 wezterm-terminfo
