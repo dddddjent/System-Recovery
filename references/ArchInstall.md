@@ -196,7 +196,8 @@ makepkg -si
 
 ### 2.3 Terminal
 
-- Install the font: JetBrainsMonoNerdFontMono/MesloLGLNerdFontMono
+- Install the font: `JetBrainsMonoNerdFontMono/MesloLGLNerdFontMono`
+  - Also `Twemoji Mozilla`
 - Install zsh
 - Install oh-my-zsh
   - `sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"`
@@ -318,6 +319,7 @@ Follow my readme is completely enough
       - **HOPE THIS WILL NOT HURT**
     - Change the desktop entry: add wine prefix for the wechat exe
       - Should be under ~/.local/lib/wine-wechat/default/
+      - **Or change the installation location: the default script can only open the one under Program Files (no x86)**
 3.  QQ: linuxqq-appimage
     - Change the font size in settings
 
@@ -338,6 +340,7 @@ Follow my readme is completely enough
 5. GuitarPro8
    - Install SHITTY baidunetdisk-bin firstly
    - change the font in wine (copy the ones in windows here)
+     - Fonts in Linux are in `/usr/share/fonts/` or `/usr/local/share/fonts/`
    - use the exe in crack to substitute the installed one
 
 ### 3.4 Docker
