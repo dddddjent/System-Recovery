@@ -135,8 +135,6 @@ eglexternalplatform
 eigen
 electron
 electron-netease-cloud-music
-electron25
-electron27
 electron28
 enchant
 exiv2
@@ -274,7 +272,6 @@ java-runtime-common
 jbig2dec
 jbigkit
 jdk-openjdk
-jemalloc
 jq
 json-c
 json-glib
@@ -371,22 +368,15 @@ ldns
 less
 leveldb
 lib2geom
-lib32-acl
 lib32-alsa-lib
 lib32-alsa-plugins
 lib32-brotli
 lib32-bzip2
 lib32-curl
-lib32-dbus
 lib32-e2fsprogs
 lib32-expat
-lib32-fontconfig
-lib32-freetype2
 lib32-gcc-libs
-lib32-gettext
-lib32-glib2
 lib32-glibc
-lib32-harfbuzz
 lib32-icu
 lib32-keyutils
 lib32-krb5
@@ -399,10 +389,9 @@ lib32-libglvnd
 lib32-libgpg-error
 lib32-libidn2
 lib32-libldap
-lib32-libnl
-lib32-libpcap
+lib32-libnghttp2
+lib32-libnghttp3
 lib32-libpciaccess
-lib32-libpng
 lib32-libpsl
 lib32-libssh2
 lib32-libtasn1
@@ -414,15 +403,11 @@ lib32-libxau
 lib32-libxcb
 lib32-libxcrypt
 lib32-libxcrypt-compat
-lib32-libxcursor
 lib32-libxdamage
 lib32-libxdmcp
 lib32-libxext
 lib32-libxfixes
-lib32-libxi
 lib32-libxml2
-lib32-libxrandr
-lib32-libxrender
 lib32-libxshmfence
 lib32-libxss
 lib32-libxxf86vm
@@ -436,10 +421,8 @@ lib32-nvidia-utils
 lib32-openssl
 lib32-p11-kit
 lib32-pam
-lib32-pcre2
 lib32-sqlite
 lib32-systemd
-lib32-util-linux
 lib32-vulkan-icd-loader
 lib32-wayland
 lib32-xz
@@ -480,6 +463,7 @@ libcolord
 libcups
 libcupsfilters
 libdaemon
+libdatachannel
 libdatrie
 libdbusmenu-glib
 libdbusmenu-gtk3
@@ -513,7 +497,6 @@ libglvnd
 libgnomekbd
 libgpg-error
 libgudev
-libical
 libice
 libidn
 libidn2
@@ -528,6 +511,7 @@ libisl
 libisoburn
 libisofs
 libjpeg-turbo
+libjuice
 libjxl
 libkdcraw5
 libkexiv2
@@ -612,6 +596,7 @@ libsoup3
 libsoxr
 libspectre
 libspeechd
+libsrtp
 libssh
 libssh2
 libstemmer
@@ -852,6 +837,7 @@ prettier
 prison5
 procps-ng
 protobuf
+prrte
 psmisc
 pulseaudio
 purpose5
@@ -1065,7 +1051,6 @@ ragel
 rapidjson
 rar
 rav1e
-re2
 readline
 reaper
 remmina
@@ -1182,7 +1167,6 @@ systemsettings
 taglib
 talloc
 tar
-tcc
 tdb
 telegram-desktop
 tevent
@@ -1236,7 +1220,6 @@ wavpack
 wayland
 wayland-utils
 webkit2gtk-4.1
-webrtc-audio-processing
 webrtc-audio-processing-1
 wezterm
 wezterm-shell-integration
