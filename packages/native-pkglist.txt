@@ -485,6 +485,7 @@ libepoxy
 libevdev
 libevent
 libexif
+libfabric
 libffi
 libfilezilla
 libfontenc
@@ -765,6 +766,7 @@ openmpi
 openpmix
 openssh
 openssl
+openucx
 opus
 orc
 os-prober
@@ -785,6 +787,7 @@ pangomm
 parted
 paru
 patch
+patchelf
 pciutils
 pcre
 pcre2
@@ -817,7 +820,6 @@ plasma-vault
 plasma-welcome
 plasma-workspace
 plasma-workspace-wallpapers
-plasma5-applets-active-window-control
 plymouth
 plymouth-kcm
 pnpm
@@ -1200,6 +1202,7 @@ usbutils
 util-linux
 util-linux-libs
 v4l-utils
+vapoursynth
 vde2
 vid.stab
 vim

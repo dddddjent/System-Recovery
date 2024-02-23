@@ -6,6 +6,7 @@ jadx-gui-desktop
 jetbrains-toolbox
 libtiff5
 linuxqq-appimage
+plasma5-applets-active-window-control
 protoc-gen-grpc-web
 protoc-gen-js-bin
 protonhax
@@ -14,4 +15,3 @@ ttf-wps-fonts
 visual-studio-code-bin
 wemeet-bin
 wps-office-fonts
-xdroid-bin
