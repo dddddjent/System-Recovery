@@ -139,6 +139,7 @@ electron28
 enchant
 exiv2
 expat
+extra-cmake-modules
 faad2
 fakeroot
 fcitx5
@@ -443,6 +444,13 @@ libayatana-appindicator
 libayatana-indicator
 libb2
 libblockdev
+libblockdev-crypto
+libblockdev-fs
+libblockdev-loop
+libblockdev-mdraid
+libblockdev-nvme
+libblockdev-part
+libblockdev-swap
 libbluray
 libbpf
 libbs2b
@@ -1319,6 +1327,7 @@ xz
 yajl
 yay
 zathura
+zathura-pdf-poppler
 zenity
 zeromq
 zimg
