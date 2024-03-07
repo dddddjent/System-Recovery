@@ -51,12 +51,14 @@ return {
 
     -- font
     -- font = wezterm.font_with_fallback { 'MesloLGL Nerd Font Mono', 'DengXian', },
-    font                         = wezterm.font_with_fallback { 'JetBrainsMono Nerd Font Mono', 'Twemoji Mozilla', 'DengXian', },
+    font                         = wezterm.font_with_fallback { 'JetBrainsMono Nerd Font Mono', 'Twemoji Mozilla',
+        'DengXian', },
     -- font                         = wezterm.font_with_fallback { 'JetBrainsMono Nerd Font', 'Twemoji Mozilla', 'DengXian', },
     line_height                  = 1.11,
-    font_size                    = 17,
+    font_size                    = 18,
 
     enable_kitty_graphics        = true,
+    enable_wayland               = true,
 
     -- Color Schemes
     -- color_scheme                 = 'Catppuccin Mocha',

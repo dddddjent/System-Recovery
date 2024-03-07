@@ -4,6 +4,7 @@ debtap
 dingtalk-bin
 jadx-gui-desktop
 jetbrains-toolbox
+khotkeys
 libtiff5
 linuxqq-appimage
 plasma5-applets-active-window-control
