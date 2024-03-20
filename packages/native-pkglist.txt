@@ -13,7 +13,6 @@ alsa-plugins
 alsa-topology-conf
 alsa-ucm-conf
 alsa-utils
-android-sdk-platform-tools
 android-tools
 android-udev
 aom
@@ -176,8 +175,6 @@ gawk
 gc
 gcc
 gcc-libs
-gcc12
-gcc12-libs
 gdb
 gdb-common
 gdbm
@@ -237,6 +234,7 @@ gtksourceview4
 guile
 gupnp
 gupnp-igd
+gvim
 gwenview
 gzip
 harfbuzz
@@ -310,6 +308,7 @@ kde-gtk-config
 kdeclarative
 kdeclarative5
 kdecoration
+kdecoration5
 kded
 kded5
 kdelibs4support
@@ -783,6 +782,7 @@ nodejs
 nodejs-nopt
 noto-fonts
 noto-fonts-cjk
+noto-fonts-emoji
 npm
 npth
 nspr
@@ -888,7 +888,6 @@ ppp
 prettier
 print-manager
 prison
-prison5
 procps-ng
 protobuf
 prrte
@@ -1103,6 +1102,8 @@ qt6-imageformats
 qt6-multimedia
 qt6-multimedia-ffmpeg
 qt6-positioning
+qt6-quick3d
+qt6-quicktimeline
 qt6-sensors
 qt6-shadertools
 qt6-speech
@@ -1238,6 +1239,7 @@ systemsettings
 taglib
 talloc
 tar
+tcl
 tdb
 telegram-desktop
 tevent
@@ -1246,6 +1248,7 @@ thefuck
 thin-provisioning-tools
 threadweaver
 timeshift
+tk
 tmux
 tmuxinator
 tpm2-tss
@@ -1274,7 +1277,6 @@ v4l-utils
 vapoursynth
 vde2
 vid.stab
-vim
 vim-runtime
 virglrenderer
 virt-install

@@ -131,6 +131,7 @@ These files are all under /etc
 10. Desktop Env (KDE here)
 
 - `sddm plasma xorg wezterm kwrite gparted dolphin sudo zip ark firefox gwenview htop timeshift xclip spectacle vlc okular wl-clipboard`
+  - **Use gvim package to substitute vim (you'll also get vim) to work with system's clipboard**
 - use default choices
 - `systemctl enable sddm`
 - Install bluetooth driver
