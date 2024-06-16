@@ -10,6 +10,9 @@ Use Ventoy: Just put the iso in the larger folder (not EFI folder)
 
 It seems like arch needs to be booted in grub mod in ventoy
 
+- Beware of the format&GPT of the iso section
+- Only ntfs/fat32 can be boot in UEFI, and fat32 can't accept files larger than 4GB
+
 ### 1.3 Connect to the network
 
 It only provides iwctl by default <br/>
@@ -99,13 +102,31 @@ These files are all under /etc
 
 6. Boot configurations
 
-- `pacman -S grub efibootmgr os-probe`: os-probe to find the other systems
+- `pacman -S grub efibootmgr os-prober`: os-probe to find the other systems
+  - os-prober requires you to mount the booting system of another system
+  - you can mount it at anywhere
 - `vim /etc/default/grub`:
   - uncomment the last line for os-probe
-    - `nvidia-drm` is for graphics driver
-    - `acpi` is for laptop's backlight control
+  - `nvidia-drm` is for graphics driver
+  - `acpi` is for laptop's backlight control - You may not need this
+
+**The biggest problem is with the secure boot**
+
+- Disable it firstly
+
+- `grub-install --target=x86_64-efi --efi-directory=esp --bootloader-id=GRUB --modules="tpm" --disable-shim-lock`
 - `grub-mkconfig -o /boot/grub/grub.cfg`
-  - if other systems are not found, you can try to do this again after reboot
+- `sudo pacman -S sbctl`
+- Set the secure boot mode to setup mode
+- `sbctl status` check it
+- `sudo sbctl create-keys`
+- `sudo sbctl enroll-keys -m`
+- `sbctl status` check again
+- `sudo sbctl verify` additional files to sign
+- `sudo sbctl sign -s /efi/EFI/GRUB/grubx64.efi`
+- `sudo sbctl verify`
+- `sbctl status` check again
+- Enable secure boot
 
 7. Network Manager
 
@@ -118,7 +139,7 @@ These files are all under /etc
 - `nmtui`: add a configuration for `ZJUWLAN-Secure` (it's the same as the one in KDE), activate it
 
 9. Install graphics driver <br/>
-   All of these require headers installed
+   All of these require headers installed (AMD skip this)
 
 - linux-zen: install `nvidia-dkms`
 - linux/linux-lts: install `nvidia`
@@ -143,6 +164,11 @@ These files are all under /etc
   - `vim /etc/pacman.d/mirrorlist` move the source you want to the start
   - `Syyu`
   - `ntfs-3g`: to mount ntfs filesystems
+
+11. Hyprland
+
+- Remember to install the `-git` version of everything related to it
+- Install waybar as early as possible
 
 ## 2. Configure the System Basics
 
@@ -294,7 +320,55 @@ REBOOT
   - Add input method and search pinyin
   - Enable cloud pinyin?
 
-### 2.6 Timeshift
+#### Hyprland
+
+`paru -S fcitx5 fcitx5-chinese-addons fcitx5-configtool`
+
+- This is enough
+- But remember to autostart
+- You may set the font size
+
+### 2.6 Hyprland
+
+#### Brightness
+
+- brightnessctl i -> info
+- brightnessctl s -> set to like 50% or an absolute value
+
+#### Sound
+
+- `pipeware, pipeware-audio, pipeware-pulse, pulse-audio`
+- `pipeware-pulse` provides the backend for pulseaudio
+
+#### Theme
+
+1. QT
+
+- `env = QT_QPA_PLATFORMTHEME,qt6ct   # for Qt apps`
+- install `breeze`
+- `cp /usr/share/color-schemes/BreezeDark.colors ~/.config/kdeglobals`
+- Breeze custom darker
+
+2. GTK
+
+- install Adwaita-dark
+- `exec = gsettings set org.gnome.desktop.interface gtk-theme "Adwaita-dark"   # for GTK3 apps`
+- `exec = gsettings set org.gnome.desktop.interface color-scheme "prefer-dark"   # for GTK4 apps`
+- Install these packages:
+
+```
+    xdg-desktop-portal-gtk
+    xdg-desktop-portal-hyprland
+```
+
+Then create the file `~/.config/xdg-desktop-portal/hyprland-portals.conf with the following contents:`
+
+```toml
+[preferred]
+default=hyprland;gtk
+```
+
+### 2.7 Timeshift
 
 Ignore /opt?
 
