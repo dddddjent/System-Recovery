@@ -322,13 +322,23 @@ REBOOT
 
 #### Hyprland
 
-`paru -S fcitx5 fcitx5-chinese-addons fcitx5-configtool`
+`paru -S fcitx5 fcitx5-chinese-addons fcitx5-configtool fcitx5-qt fcitx5-gtk fcitx5-material-color`
 
-- This is enough
-- But remember to autostart
-- You may set the font size
+```bash
+GTK_IM_MODULE=fcitx
+QT_IM_MODULE=fcitx
+XMODIFIERS=@im=fcitx
+SDL_IM_MODULE=fcitx
+```
+
+- beware the space!
+
+- But remember to `exec, fcitx5 -d`
 
 ### 2.6 Hyprland
+
+- `systemctl enable sddm`
+- `archlinux-themes-sddm`
 
 #### Brightness
 
@@ -345,9 +355,8 @@ REBOOT
 1. QT
 
 - `env = QT_QPA_PLATFORMTHEME,qt6ct   # for Qt apps`
-- install `breeze`
-- `cp /usr/share/color-schemes/BreezeDark.colors ~/.config/kdeglobals`
-- Breeze custom darker
+- install kvantum (pacman)
+- qt6ct set theme kvantum
 
 2. GTK
 
@@ -367,6 +376,37 @@ Then create the file `~/.config/xdg-desktop-portal/hyprland-portals.conf with th
 [preferred]
 default=hyprland;gtk
 ```
+
+#### Font
+
+https://wiki.archlinuxcn.org/wiki/%E5%AD%97%E4%BD%93%E9%85%8D%E7%BD%AE/%E4%B8%AD%E6%96%87
+
+#### Notification
+
+swaync
+
+#### NetworkManager
+
+```
+nm-connection-editor
+network-manager-applet
+```
+
+#### Bluetooth manager
+
+(`blueman-applet`)
+
+```
+blueman
+```
+
+#### Status Bar
+
+waybar
+
+#### Screenshot
+
+hyprshot
 
 ### 2.7 Timeshift
 
@@ -397,6 +437,7 @@ Follow my readme is completely enough
       - **Or change the installation location: the default script can only open the one under Program Files (no x86)**
 3.  QQ: linuxqq-appimage
     - Change the font size in settings
+    - wayland, change the desktop cmd `--enable-features=UseOzonePlatform,waylandWindowDecorations --ozone-platform=wayland --no-sandbox --enable-wayland-ime`
 
 ### 3.3 Misc
 
