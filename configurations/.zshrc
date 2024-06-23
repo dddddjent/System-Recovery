@@ -185,3 +185,5 @@ source /usr/share/nvm/init-nvm.sh
 # ssh -o ProxyCommand='nc -X 5 -x 127.0.0.1:1080 %h %p' ljl@10.13.88.147 -p 30903
 alias zju-connect="sudo systemctl start zju-connect.service"
 alias zju-connect-stop="sudo systemctl stop zju-connect.service"
+
+export PATH=$PATH:/home/ljl/Documents/Applications/nvim/bin

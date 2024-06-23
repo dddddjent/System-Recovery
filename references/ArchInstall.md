@@ -430,6 +430,7 @@ Follow my readme is completely enough
       - `sudo pacman-key --lsign-key "farseerfc@archlinux.org"`
       - `paru -Sa` to force install from AUR
     - dpi 120
+    - This shitty repo has a conflict package `hyprlang`
     - It seems like you have to set `/etc/systemd/system.conf`: `DefaultDeviceTimeoutSec` to a smaller value to reboot/shutdown normally
       - **HOPE THIS WILL NOT HURT**
     - Change the desktop entry: add wine prefix for the wechat exe
