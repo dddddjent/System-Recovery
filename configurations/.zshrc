@@ -162,9 +162,7 @@ export https_proxy=socks5://127.0.0.1:1090'
 alias p_unset='unset http_proxy \
 unset https_proxy'
 
-# >>> xmake >>>
-test -f "/home/ljl/.xmake/profile" && source "/home/ljl/.xmake/profile"
-# <<< xmake <<<
+
 if [ -n "$PYTHONPATH" ]; then
     export PYTHONPATH='/usr/lib/python3.11/site-packages/pdm/pep582':$PYTHONPATH
 else
@@ -187,3 +185,19 @@ alias zju-connect="sudo systemctl start zju-connect.service"
 alias zju-connect-stop="sudo systemctl stop zju-connect.service"
 
 export PATH=$PATH:/home/ljl/Documents/Applications/nvim/bin
+export PATH=$PATH:/home/ljl/.local/share/gem/ruby/3.3.0/bin
+
+## [Completion]
+## Completion scripts setup. Remove the following line to uninstall
+[[ -f /home/ljl/.dart-cli-completion/zsh-config.zsh ]] && . /home/ljl/.dart-cli-completion/zsh-config.zsh || true
+## [/Completion]
+
+
+# Ocaml
+eval $(opam env)
+
+# APIs
+source /home/ljl/Documents/API_KEYS.sh
+# >>> xmake >>>
+test -f "/home/ljl/.xmake/profile" && source "/home/ljl/.xmake/profile"
+# <<< xmake <<<

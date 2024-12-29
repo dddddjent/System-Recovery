@@ -59,7 +59,7 @@ noremap <C-j> <C-w>j
 noremap <C-h> <C-w>h
 noremap <C-l> <C-w>l
 noremap - :split<cr>
-noremap <leader>\ :vsplit<cr>
+nnoremap <s-\> :vsplit<cr>
 noremap <leader>q :q<cr>
 noremap <leader>w :w<cr>
 
@@ -67,7 +67,7 @@ noremap <leader>w :w<cr>
 noremap za zc
 noremap zx zo
 
-"" -- Map IDE actions to IdeaVim -- https://jb.gg/abva4t
+" -- Map IDE actions to IdeaVim -- https://jb.gg/abva4t
 "" Map \r to the Reformat Code action
 "map \r <Action>(ReformatCode)
 " 代码格式化功能 <leader>fc
@@ -91,8 +91,14 @@ nmap f <Plug>(easymotion-f)
 
 " debug
 nnoremap <Leader>1 :action ToggleLineBreakpoint<CR>
+nnoremap <Leader>e :action ActivateProjectToolWindow<CR>
+nnoremap <Leader>c :action CloseContent<CR>
+nnoremap <Leader>f :action GotoFile<CR>
+nnoremap <s-l> :action NextTab<CR>
+nnoremap <s-h> :action PreviousTab<CR>
+nnoremap <s-k> :action QuickJavaDoc<CR>
 
-"" Map <leader>d to start debug
+" Map <leader>d to start debug
 "map <leader>d <Action>(Debug)
 
 "" Map \b to toggle the breakpoint on the current line

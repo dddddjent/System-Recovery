@@ -48,6 +48,9 @@ nnoremap <Leader>4 :qa!<CR>
 
 
 " Wayland clipboard
+if has('nvim') || empty($WAYLAND_DISPLAY)
+    finish
+endif
 " Yanking {{{
 
 " The '+' register doesn't work for yanking if:
