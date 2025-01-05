@@ -11,3 +11,6 @@ cp ~/.gitconfig ./configurations/
 cp ~/.tmux.conf ./configurations/
 cp ~/.config/tmuxinator/default.yml ./configurations/tmuxinator-default.yml
 cp ~/.mypy.ini ./configurations/
+
+mkdir -p ~/.config/kitty
+cp ~/.config/kitty/kitty.conf ./configurations/kitty
