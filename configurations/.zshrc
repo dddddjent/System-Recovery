@@ -186,6 +186,7 @@ alias zju-connect-stop="sudo systemctl stop zju-connect.service"
 
 export PATH=$PATH:/home/ljl/Documents/Applications/nvim/bin
 export PATH=$PATH:/home/ljl/.local/share/gem/ruby/3.3.0/bin
+export PATH=$PATH:/home/ljl/.local/bin
 
 ## [Completion]
 ## Completion scripts setup. Remove the following line to uninstall

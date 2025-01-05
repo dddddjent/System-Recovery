@@ -1,0 +1,18 @@
+font-family = "JetBrains Mono Nerd Font Mono"
+font-size = 15
+adjust-cell-width = -10%
+adjust-cell-height = 3
+adjust-underline-position = 1
+adjust-underline-thickness = -1
+window-padding-balance = true
+window-padding-y = 0, 0
+theme = iTerm2 Smoooooth
+
+gtk-tabs-location = hidden
+gtk-titlebar = false
+gtk-wide-tabs = false
+
+keybind = f11=toggle_fullscreen
+# keybind = alt+z=new_tab
+keybind = alt+z=toggle_tab_overview
+# keybind = alt+t=toggle_tab_overview
