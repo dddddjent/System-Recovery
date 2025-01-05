@@ -64,6 +64,7 @@ It only provides iwctl by default <br/>
 2. Time zone and Time
    - `ln -sf /usr/share/zoneinfo/Asia/Shanghai /etc/localtime`
    - `hwclock --systohc` correct the time
+   - `timedatectl set-ntp true` to synchronize with network time
 3. Get to /etc
 4. Set locale
 
